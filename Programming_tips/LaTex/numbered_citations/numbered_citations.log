@@ -1,0 +1,77 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/MacPorts 2017_0) (preloaded format=pdflatex 2017.8.2)  21 AUG 2017 18:35
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**numbered_citations.tex
+(./numbered_citations.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 46 language(s) loaded.
+(/opt/local/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/opt/local/share/texmf-texlive/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/opt/local/share/texmf-texlive/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count87
+) (./filecontents.sty
+Package: filecontents 2011/10/08 v1.3 Create an external file from within a LaT
+eX document
+)
+
+LaTeX Warning: Overwriting file `./mybibliography.bib'.
+
+\openout15 = `mybibliography.bib'.
+
+
+(./numbered_citations.aux)
+\openout1 = `numbered_citations.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+(./numbered_citations.bbl) [1
+
+{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./numbered_citat
+ions.aux) ) 
+Here is how much of TeX's memory you used:
+ 564 strings out of 494108
+ 6576 string characters out of 6155656
+ 57394 words of memory out of 5000000
+ 4016 multiletter control sequences out of 15000+600000
+ 4591 words of font info for 17 fonts, out of 8000000 for 9000
+ 430 hyphenation exceptions out of 8191
+ 23i,4n,28p,161b,312s stack positions out of 5000i,500n,10000p,200000b,80000s
+</opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+</opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on numbered_citations.pdf (1 page, 36556 bytes).
+PDF statistics:
+ 20 PDF objects out of 1000 (max. 8388607)
+ 13 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,153 @@
+
+[ /Title (Gravity An Introduction to Einsten's General Relativity)
+  /Author (James B. Hartle)
+  /Creator (Bhishan Poudel)
+  /Keywords (pdfmark, example)
+  /CreationDate (Aug 10, 2017)
+  /ModDate (Aug 10, 2017)
+  /DOCINFO pdfmark
+[/Count -0 /Page 21 /Title (Chapter 1 Gravitational Physics) /OUT pdfmark
+[/Count -6 /Page 31 /Title (Chapter 2 Geometry as Physics) /OUT pdfmark
+[/Count 0 /Page 31 /Title (2.1 Gravity Is Geometry) /OUT pdfmark
+[/Count 0 /Page 33 /Title (2.2 Experiments in Geometry) /OUT pdfmark
+[/Count 0 /Page 36 /Title (2.3 Different Geometries) /OUT pdfmark
+[/Count 0 /Page 38 /Title (2.4 Specifying Geometry) /OUT pdfmark
+[/Count 0 /Page 39 /Title (2.5 Coordinates and Line Element) /OUT pdfmark
+[/Count 0 /Page 45 /Title (2.6 Coordinates and Invariance) /OUT pdfmark
+[/Count -5 /Page 49 /Title (Chapter 3  Space, Time, and Gravity in Newtonian Physics) /OUT pdfmark
+[/Count 0 /Page 49 /Title (3.1 Inertial Frames) /OUT pdfmark
+[/Count 0 /Page 54 /Title (3.2 The Principle of Relativity) /OUT pdfmark
+[/Count 0 /Page 56 /Title (3.3 Newtonian Gravity) /OUT pdfmark
+[/Count 0 /Page 59 /Title (3.4 Gravitational and Inertial Mass) /OUT pdfmark
+[/Count 0 /Page 60 /Title (3.5 Variational Principle for Newtonian Mechanics) /OUT pdfmark
+[/Count -6 /Page 65 /Title (Chapter 4  Principles of Special Relativity) /OUT pdfmark
+[/Count 0 /Page 65 /Title (4.1 The Addition of Velocities and the Michelson—Morley Experiment) /OUT pdfmark
+[/Count 0 /Page 67 /Title (4.2 Einstein's Resolution and Its Consequences) /OUT pdfmark
+[/Count 0 /Page 70 /Title (4.3 Spacetime) /OUT pdfmark
+[/Count 0 /Page 78 /Title (4.4 Time Dilation and the Twin Paradox) /OUT pdfmark
+[/Count 0 /Page 83 /Title (4.5 Lorentz Boosts) /OUT pdfmark
+[/Count 0 /Page 89 /Title (4.6 Units) /OUT pdfmark
+[/Count -6 /Page 95 /Title (Chapter 5  Special Relativistic Mechanics) /OUT pdfmark
+[/Count 0 /Page 95 /Title (5.1 Four-Vectors) /OUT pdfmark
+[/Count 0 /Page 100 /Title (5.2 Special Relativistic Kinematics) /OUT pdfmark
+[/Count 0 /Page 103 /Title (5.3 Special Relativistic Dynamics) /OUT pdfmark
+[/Count 0 /Page 107 /Title (5.4 Variational Principle for Free Particle Motion) /OUT pdfmark
+[/Count 0 /Page 109 /Title (5.5 Light Rays) /OUT pdfmark
+[/Count 0 /Page 113 /Title (5.6 Observers and Observations) /OUT pdfmark
+[/Count -6 /Page 123 /Title (Chapter 6  Gravity as Geometry) /OUT pdfmark
+[/Count 0 /Page 123 /Title (6.1 Testing the Equality of Gravitational and Inertial Mass) /OUT pdfmark
+[/Count 0 /Page 126 /Title (6.2 The Equivalence Principle) /OUT pdfmark
+[/Count 0 /Page 129 /Title (6.3 Clocks in a Gravitational Field) /OUT pdfmark
+[/Count 0 /Page 137 /Title (6.4 The Global Positioning System) /OUT pdfmark
+[/Count 0 /Page 141 /Title (6.5 Spacetime Is Curved) /OUT pdfmark
+[/Count 0 /Page 142 /Title (6.6 Newtonian Gravity in Spacetime Terms) /OUT pdfmark
+[/Count -9 /Page 151 /Title (Chapter 7  The Description of Curved Spacetime) /OUT pdfmark
+[/Count 0 /Page 151 /Title (7.1 Coordinates) /OUT pdfmark
+[/Count 0 /Page 154 /Title (7.2 Metric) /OUT pdfmark
+[/Count 0 /Page 154 /Title (7.3 The Summation Convention) /OUT pdfmark
+[/Count 0 /Page 156 /Title (7.4 Local Inertial Frames) /OUT pdfmark
+[/Count 0 /Page 158 /Title (7.5 Light Cones and World Lines) /OUT pdfmark
+[/Count 0 /Page 162 /Title (7.6 Length, Area, Volume, and Four-Volume for Diagonal Metrics) /OUT pdfmark
+[/Count 0 /Page 164 /Title (7.7 Embedding Diagrams and Wormholes) /OUT pdfmark
+[/Count 0 /Page 168 /Title (7.8 Vectors in Curved Spacetime) /OUT pdfmark
+[/Count 0 /Page 174 /Title (7.9 Three-Dimensional Surfaces in Four-Dimensional Spacetime) /OUT pdfmark
+[/Count -4 /Page 185 /Title (Chapter 8  Geodesics) /OUT pdfmark
+[/Count 0 /Page 185 /Title (8.1 The Geodesic Equation) /OUT pdfmark
+[/Count 0 /Page 191 /Title (8.2 Solving the Geodesic Equation—Symmetries and Conservation Laws) /OUT pdfmark
+[/Count 0 /Page 194 /Title (8.3 Null Geodesics) /OUT pdfmark
+[/Count 0 /Page 195 /Title (8.4 Local Inertial Frames and Freely Falling Frames) /OUT pdfmark
+[/Count -4 /Page 202 /Title (Chapter 9  The Geometry Outside a Spherical Star) /OUT pdfmark
+[/Count 0 /Page 202 /Title (9.1 Schwarzschild Geometry) /OUT pdfmark
+[/Count 0 /Page 205 /Title (9.2 The Gravitational Redshift) /OUT pdfmark
+[/Count 0 /Page 207 /Title (9.3 Particle Orbits—Precession of the Perihelion) /OUT pdfmark
+[/Count 0 /Page 220 /Title (9.4 Light Ray Orbits—The Deflection and Time Delay of Light) /OUT pdfmark
+[/Count -4 /Page 235 /Title (Chapter 10  Solar System Tests of General Relativity) /OUT pdfmark
+[/Count 0 /Page 235 /Title (10.1 Gravitational Redshift) /OUT pdfmark
+[/Count 0 /Page 237 /Title (10.2 PPN Parameters) /OUT pdfmark
+[/Count 0 /Page 239 /Title (10.3 Measurements of the PPN Parameter y) /OUT pdfmark
+[/Count 0 /Page 246 /Title (10.4 Measurement of the PPN Parameter fl—Precession of Mercury's Perihelion) /OUT pdfmark
+[/Count -3 /Page 250 /Title (Chapter 11  Relativistic Gravity in Action) /OUT pdfmark
+[/Count 0 /Page 250 /Title (11.1 Gravitational Lensing) /OUT pdfmark
+[/Count 0 /Page 260 /Title (11.2 Accretion Disks Around Compact Objects) /OUT pdfmark
+[/Count 0 /Page 266 /Title (11.3 Binary Pulsars) /OUT pdfmark
+[/Count -4 /Page 271 /Title (Chapter 12  Gravitational Collapse and Black Holes) /OUT pdfmark
+[/Count 0 /Page 272 /Title (12.1 The Schwarzschild Black Hole) /OUT pdfmark
+[/Count 0 /Page 278 /Title (12.2 Collapse to a Black Hole) /OUT pdfmark
+[/Count 0 /Page 285 /Title (12.3 Kruskal–Szekeres Coordinates) /OUT pdfmark
+[/Count 0 /Page 291 /Title (12.4 Nonspherical Gravitational Collapse) /OUT pdfmark
+[/Count -3 /Page 297 /Title (Chapter 13  Astrophysical Black Holes) /OUT pdfmark
+[/Count 0 /Page 298 /Title (13.1 Black Holes in X-Ray Binaries) /OUT pdfmark
+[/Count 0 /Page 301 /Title (13.2 Black Holes in Galaxy Centers) /OUT pdfmark
+[/Count 0 /Page 305 /Title (13.3 Quantum Evaporation of Black Holes—Hawking Radiation) /OUT pdfmark
+[/Count -6 /Page 312 /Title (Chapter 14  A Little Rotation) /OUT pdfmark
+[/Count 0 /Page 312 /Title (14.1 Rotational Dragging of Inertial Frames) /OUT pdfmark
+[/Count 0 /Page 313 /Title (14.2 Gyroscopes in Curved Spacetime) /OUT pdfmark
+[/Count 0 /Page 314 /Title (14.3 Geodetic Precession) /OUT pdfmark
+[/Count 0 /Page 318 /Title (14.4 Spacetime Outside a Slowly Rotating Spherical Body) /OUT pdfmark
+[/Count 0 /Page 319 /Title (14.5 Gyroscopes in the Spacetime of a Slowly Rotating Body) /OUT pdfmark
+[/Count 0 /Page 324 /Title (14.6 Gyros and Freely Falling Frames) /OUT pdfmark
+[/Count -5 /Page 326 /Title (Chapter 15  Rotating Black Holes) /OUT pdfmark
+[/Count 0 /Page 326 /Title (15.1 Cosmic Censorship) /OUT pdfmark
+[/Count 0 /Page 327 /Title (15.2 The Ken- Geometry) /OUT pdfmark
+[/Count 0 /Page 329 /Title (15.3 The Horizon of a Rotating Black Hole) /OUT pdfmark
+[/Count 0 /Page 332 /Title (15.4 Orbits in the Equatorial Plane) /OUT pdfmark
+[/Count 0 /Page 338 /Title (15.5 The Ergosphere) /OUT pdfmark
+[/Count -5 /Page 347 /Title (Chapter 16  Gravitational Waves) /OUT pdfmark
+[/Count 0 /Page 348 /Title (16.1 A Linearized Gravitational Wave) /OUT pdfmark
+[/Count 0 /Page 349 /Title (16.2 Detecting Gravitational Waves) /OUT pdfmark
+[/Count 0 /Page 352 /Title (16.3 Gravitational Wave Polarization) /OUT pdfmark
+[/Count 0 /Page 355 /Title (16.4 Gravitational Wave Interferometers) /OUT pdfmark
+[/Count 0 /Page 358 /Title (16.5 The Energy in Gravitational Waves) /OUT pdfmark
+[/Count -3 /Page 363 /Title (Chapter 17  The Universe Observed) /OUT pdfmark
+[/Count 0 /Page 363 /Title (17.1 The Composition of the Universe) /OUT pdfmark
+[/Count 0 /Page 368 /Title (17.2 The Expanding Universe) /OUT pdfmark
+[/Count 0 /Page 376 /Title (17.3 Mapping the Universe) /OUT pdfmark
+[/Count -7 /Page 380 /Title (Chapter 18  Cosmological Models) /OUT pdfmark
+[/Count 0 /Page 380 /Title (18.1 Homogeneous, Isotropic Spacetimes) /OUT pdfmark
+[/Count 0 /Page 382 /Title (18.2 The Cosmological Redshift) /OUT pdfmark
+[/Count 0 /Page 386 /Title (18.3 Matter, Radiation, and Vacuum) /OUT pdfmark
+[/Count 0 /Page 388 /Title (18.4 Evolution of the Flat FRW Models) /OUT pdfmark
+[/Count 0 /Page 392 /Title (18.5 The Big Bang and Age and Size of the Universe) /OUT pdfmark
+[/Count 0 /Page 396 /Title (18.6 Spatially Curved Robertson—Walker Metrics) /OUT pdfmark
+[/Count 0 /Page 399 /Title (18.7 Dynamics of the Universe) /OUT pdfmark
+[/Count -2 /Page 413 /Title (Chapter 19  Which Universe and Why?) /OUT pdfmark
+[/Count 0 /Page 415 /Title (19.1 Surveying the Universe) /OUT pdfmark
+[/Count 0 /Page 423 /Title (19.2 Explaining the Universe) /OUT pdfmark
+[/Count -5 /Page 430 /Title (Chapter 20  A Little More Math) /OUT pdfmark
+[/Count 0 /Page 430 /Title (20.1 Vectors) /OUT pdfmark
+[/Count 0 /Page 432 /Title (20.2 Dual Vectors) /OUT pdfmark
+[/Count 0 /Page 438 /Title (20.3 Tensors) /OUT pdfmark
+[/Count 0 /Page 441 /Title (20.4 The Covariant Derivative) /OUT pdfmark
+[/Count 0 /Page 451 /Title (20.5 Freely Falling Frames Again) /OUT pdfmark
+[/Count -5 /Page 456 /Title (Chapter 21  Curvature and the Einstein Equation) /OUT pdfmark
+[/Count 0 /Page 456 /Title (21.1 Tidal Gravitational Forces) /OUT pdfmark
+[/Count 0 /Page 461 /Title (21.2 Equation of Geodesic Deviation) /OUT pdfmark
+[/Count 0 /Page 465 /Title (21.3 Riemann Curvature) /OUT pdfmark
+[/Count 0 /Page 467 /Title (21.4 The Einstein Equation in Vacuum) /OUT pdfmark
+[/Count 0 /Page 470 /Title (21.5 Linearized Gravity) /OUT pdfmark
+[/Count -5 /Page 482 /Title (Chapter 22  The Source of Curvature) /OUT pdfmark
+[/Count 0 /Page 482 /Title (22.1 Densities) /OUT pdfmark
+[/Count 0 /Page 489 /Title (22.2 Conservation) /OUT pdfmark
+[/Count 0 /Page 489 /Title (22.2 Conservation of Energy-Momentum) /OUT pdfmark
+[/Count 0 /Page 493 /Title (22.3 The Einstein Equation) /OUT pdfmark
+[/Count 0 /Page 496 /Title (22.4 The Newtonian Limit) /OUT pdfmark
+[/Count -8 /Page 502 /Title (Chapter 23  Gravitational Wave Emission) /OUT pdfmark
+[/Count 0 /Page 502 /Title (23.1 The Linearized Einstein Equation with Sources) /OUT pdfmark
+[/Count 0 /Page 504 /Title (23.2 Solving the Wave Equation with a Source) /OUT pdfmark
+[/Count 0 /Page 507 /Title (23.3 The General Solution of Linearized Gravity) /OUT pdfmark
+[/Count 0 /Page 509 /Title (23.4 Production of Weak Gravitational Waves) /OUT pdfmark
+[/Count 0 /Page 513 /Title (23.5 Gravitational Radiation from Binary Stars) /OUT pdfmark
+[/Count 0 /Page 517 /Title (23.6 The Quadrupole Formula for the Energy Loss in Gravitational Waves) /OUT pdfmark
+[/Count 0 /Page 519 /Title (23.7 Effects of Gravitational Radiation Detected in a Binary Pulsar) /OUT pdfmark
+[/Count 0 /Page 521 /Title (23.8 Strong Source Expectations) /OUT pdfmark
+[/Count -6 /Page 526 /Title (Chapter 24  Relativistic Stars) /OUT pdfmark
+[/Count 0 /Page 527 /Title (24.1 The Power of the Pauli Principle) /OUT pdfmark
+[/Count 0 /Page 531 /Title (24.2 Relativistic Hydrostatic Equilibrium) /OUT pdfmark
+[/Count 0 /Page 534 /Title (24.3 Stellar Models) /OUT pdfmark
+[/Count 0 /Page 535 /Title (24.4 Matter in Its Ground State) /OUT pdfmark
+[/Count 0 /Page 539 /Title (24.5 Stability) /OUT pdfmark
+[/Count 0 /Page 546 /Title (24.6 Bounds on the Maximum Mass of Neutron Stars) /OUT pdfmark
+[/Count -2 /Page 551 /Title (Chapter 25  Units) /OUT pdfmark
+[/Count 0 /Page 551 /Title (25.1 Units in General) /OUT pdfmark
+[/Count 0 /Page 552 /Title (25.2 Units Employed in this Book) /OUT pdfmark
+[/Count -0 /Page 554 /Title (Chapter 26 Curvature Quantitie) /OUT pdfmark

@@ -1,0 +1,13 @@
+Author: Bhishan Poudel
+Date: Aug 9, 2017
+
+To compile and view tex files using texstudio in macpro
+=====================================
+1. for some reasons pdflatex is taking infinite time to run 
+   and computer hangs.
+   
+   change pdflatex to latexmk command.
+   
+   Texstudio > Build
+   build and view: txs:///latexmk | txs:///view
+   Default compiler: latexmk

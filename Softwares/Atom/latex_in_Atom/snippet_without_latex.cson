@@ -1,0 +1,1256 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+# Each scope (e.g. '.source.coffee' above) can only be declared once.
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+#  After installing project manager, ctrl alt p for settings, then type
+#  install, click install packages and themes, go to settings,
+#  search language-python we see scope source.python
+# Alternative, If toolbar activated, just click settings, and do same thing.
+#
+# To find source name go to preferences look for language and look scope.
+# e.g. search restructuredtext
+# it shows text.restructuredtext
+#
+# NOTE: DISABLE autocomplete-plus and use only this snippets
+#
+# Above this is snippets for python
+##==============================================================================
+## Plain text Snippets
+##=============================================================================
+'.text.plain':
+    'diary':
+        'prefix': 'hdr'
+        'body': """
+        ********************************************************************************
+        # ==============================================================================
+        # Date   : $1
+        # Summary: $2
+        # ==============================================================================
+        $0
+        """
+    'header':
+        'prefix': 'h2'
+        'body': 'Author: Bhishan Poudel\nDate  : $1\n\n$0'
+
+    'header2':
+        'prefix': 'h'
+        'body': 'Author: Bhishan Poudel\nDate  : $1\n\nTopic: $2\n=============================\n\n$0'
+
+    'topic':
+        'prefix': 't'
+        'body': '\n\n# =============================================================================\n# Date   : $1\n# Summary: $2\n# =============================================================================\n\n$0'
+
+    'single comment line':
+        'prefix': 'line'
+        'body': '# =============================================================================\n$0'
+
+    'single comment line typo':
+        'prefix': 'lien'
+        'body': '# =============================================================================\n$0'
+
+    'lines':
+        'prefix': 'lines'
+        'body': '##=======================================================================\n## $1\n\##=======================================================================$0'
+
+    'lines typo':
+        'prefix': 'liens'
+        'body': '##=======================================================================\n## $1\n\##=======================================================================$0'
+    '1 spaces':
+        'prefix': '1s'
+        'body': '\\\\ '
+    '2 spaces':
+        'prefix': '2s'
+        'body': '\\\\ \\\\ '
+    '1 spaces':
+        'prefix': '3s'
+        'body': '\\\\ \\\\ \\\\ '
+    '4 spaces':
+        'prefix': '4s'
+        'body': '\\\\ \\\\ \\\\ \\\\ '
+    '5 spaces':
+        'prefix': '5s'
+        'body': '\\\\ \\\\ \\\\ \\\\ \\\\ '
+    '6 spaces':
+        'prefix': '6s'
+        'body': '\\\\ \\\\ \\\\ \\\\ \\\\ \\\\ '
+    '7 spaces':
+        'prefix': '7s'
+        'body': '\\\\ \\\\ \\\\ \\\\ \\\\ \\\\ \\\\ '
+    '8 spaces':
+        'prefix': '8s'
+        'body': '\\\\ \\\\ \\\\ \\\\ \\\\ \\\\ \\\\ \\\\ '
+    '9 spaces':
+        'prefix': '9s'
+        'body': '\\\\ \\\\ \\\\ \\\\ \\\\ \\\\ \\\\ \\\\ \\\\ '
+    '10 spaces':
+        'prefix': '10s'
+        'body': '\\\\ \\\\ \\\\ \\\\ \\\\ \\\\ \\\\ \\\\ \\\\ \\\\ '
+# Above this is Plain Text.
+# Below this is rest.
+##==============================================================================
+##          Python SNIPPETS
+##==============================================================================
+'.source.python':
+    'Example of snippet in atom':
+        'prefix': 'xeg'
+        'body': '''
+        This is line 1 and placeholder ${1:arg1}.
+        This is line 2 and another placeholder ${2:arg2}.
+        $0
+        '''
+        'description': '''
+        This description is optional.
+        This is an example of using snippets in Atom text editor.
+        My custom snippets starts with letter x.
+        To create snippets go to Atom > Snippets and add snippets.
+        To find the scope name go to Atom > preferences > packages >
+           type language > click settings > see things like source.c
+           DO NOT click on link, CLICK  settings.
+        '''
+
+    'Header':
+        'prefix': 'hdr'
+        'body': '#!/Users/poudel/anaconda/bin/python\n# -*- coding: utf-8 -*-#\n#\n# Author      : Bhishan Poudel; Physics Graduate Student, Ohio University\n# Date        : $1\n# Last update :\n# Est time    :\n\n# Imports\n$2$0'
+
+    'import multiprocessing':
+        'prefix': 'mp'
+        'body': 'mp=import multiprocessing as mp'
+
+    'import numpy':
+        'prefix': 'np'
+        'body': 'import numpy as np'
+
+    'import pandas':
+        'prefix': 'pd'
+        'body': 'import pandas as pd'
+
+    'import scipy':
+        'prefix': 'sp'
+        'body': 'import scipy as sp'
+
+    'import astropy':
+        'prefix': 'ap'
+        'body': 'import astropy.io'
+
+    'import matplotlib.pyplot':
+        'prefix': 'plt'
+        'body': 'import matplotlib.pyplot as plt'
+
+    'import astropy fits':
+        'prefix': 'fits'
+        'body': 'from astropy.io import fits'
+
+    'import astropy fits getheader':
+        'prefix': 'getheader'
+        'body': 'from astropy.io.fits import getheader'
+
+    'import astropy fits getval':
+        'prefix': 'getval'
+        'body': 'from astropy.io.fits import getval'
+
+    'import astropy fits getdata':
+        'prefix': 'getdata'
+        'body': 'from astropy.io.fits import getdata'
+
+    'print with format':
+        'prefix': 'prf'
+        'body': 'print( \'\{\}\'.format($1))$0'
+
+
+    'print ':
+        'prefix': 'pr'
+        'body': 'print($0)'
+
+    'print newline':
+        'prefix': 'prn'
+        'body': 'print("\\\\n")'
+
+    'numpy arange for integers':
+        'prefix': 'arange'
+        'body': 'np.arange($1, $2, step = $3) $0'
+
+    'read columns of file using numpy':
+        'prefix': 'readfile'
+        'body': 'infile = "$1"\nx = np.genfromtxt(infile, delimiter=None, usecols=(0),\\\n                  dtype=str, unpack=True)\ny = np.genfromtxt(infile, delimiter=None, usecols=(1),\\\n                  dtype=float, unpack=True)\n$0'
+
+    'fileread using pandas':
+        'prefix': 'filereadpd'
+        'body': 'infile = "$1"\ncolnames = ["col0", "col1"]\ndf = pd.read_csv(infile, sep="\s+", header=None, skiprows=0,\n                 comment="#", names=colnames, usecols=(0, 1))\n\nprint("\{\} \{\} \{\}".format("input file header: \\n", df.head(), "\\n"))$0'
+
+    'time taken to run program':
+        'prefix': 'time'
+        'body': 'import time\n\n# beginning time\nprogram_begin_time = time.time()\nbegin_ctime        = time.ctime()\n\n\n# print the time taken\nprogram_end_time = time.time()\nend_ctime        = time.ctime()\nseconds          = program_end_time - program_begin_time\nm, s             = divmod(seconds, 60)\nh, m             = divmod(m, 60)\nd, h             = divmod(h, 24)\nprint("\\nBegin time: ", begin_ctime)\nprint("End   time: ",  end_ctime, \\n")\nprint("Time taken: \{0: .0f\} days, \{1: .0f\} hours,\\\n      \{2: .0f\} minutes, \{3: f\} seconds.".format(d, h, m, s))\n'
+
+    'function':
+        'prefix': 'def'
+        'body': 'def $1($2):\n    """$3"""\n    $4\n    return ${5:None}$0'
+
+    'fn with args':
+        'prefix': 'deff'
+        'body': 'def $1($2):\n    """$3\n\n    Args:\n        $2: $5\n\n    Returns: $6\n\n    """\n    #  $7\n    return ${8:None}$0'
+
+
+    'print':
+        'prefix': 'pr'
+        'body': 'print($1)$0'
+
+
+    'print 2 decimal points':
+        'prefix': 'prr'
+        'body': 'print(\'\{\} \{:.2f\} \{\}\'.format(\'$1 = \', $2, \'$3\'))$0'
+
+
+    '2 decimal points for all elements of list':
+        'prefix': 'prl'
+        'body': 'print([float(str(np.round((x), 2))) for x in $1])'
+
+    'docstring':
+        'prefix': 'doc'
+        'body': '"""$1"""$0'
+
+    'def main':
+        'prefix': 'main'
+        'body': 'def main():\n    """Run main function."""\n    $1\n\nif __name__ == "__main__":\n    main()$0'
+
+    'if __name__ == __main__':
+        'prefix': 'name'
+        'body': 'if __name__ == "__main__":\n    #\n    $1()'
+
+    'def main with time':
+        'prefix': 'maint'
+        'body': 'def main():\n    """Run main function."""\n    $1\n\nif __name__ == "__main__":\n    import time\n\n    # Beginning time\n    program_begin_time = time.time()\n    begin_ctime        = time.ctime()\n\n    #  Run the main program\n    main()\n\n    # Print the time taken\n    program_end_time = time.time()\n    end_ctime        = time.ctime()\n    seconds          = program_end_time - program_begin_time\n    m, s             = divmod(seconds, 60)\n    h, m             = divmod(m, 60)\n    d, h             = divmod(h, 24)\n    print("\\nBegin time: ", begin_ctime)\n    print("End   time: ", end_ctime, "\\\\n")\n    print("Time taken: \{0: .0f\} days, \{1: .0f\} hours, \\\\\n      \{2: .0f\} minutes, \{3: f\} seconds.".format(d, h, m, s))\n$0'
+
+    'print(a)':
+        'prefix': 'pra'
+        'body': 'print(a)'
+
+
+    'Dictionary Comprehension':
+        'prefix': 'dc'
+        'body': '{${1:key}: ${2:value} for ${3:key}, ${4:value} in ${5:variable}}'
+
+    'List Comprehension':
+        'prefix': 'lc'
+        'body': '[${1:value} for ${2:value} in ${3:variable}]'
+
+    'Print Dictionary Key Values':
+        'prefix': 'prd'
+        'body': 'for key, value in config.items():\n    print (key, " = ", value)'
+
+    'Print List Elements':
+        'prefix': 'prl'
+        'body': 'for _ in $1:\n    print(_)'
+
+    'From Future Import Libraries':
+        'prefix': 'fut'
+        'body': '''from __future__ import print_function, unicode_literals, division, absolute_import'''
+
+    'Print a':
+        'prefix': 'pra'
+        'body': """print('a = ', a)"""
+
+    'Print b':
+        'prefix': 'prb'
+        'body': """print('b = ', b) """
+
+    'Print c':
+        'prefix': 'prc'
+        'body': """print('c = ', c) """
+
+    '':
+        'prefix': ''
+        'body': """ """
+
+    '':
+        'prefix': ''
+        'body': """ """
+
+    '':
+        'prefix': ''
+        'body': """ """
+
+    '':
+        'prefix': ''
+        'body': """ """
+
+
+     #=============== For rest docstrings in python ===============
+    'Conents':
+        'prefix': 'contents'
+        'body': '.. contents:: Table of Contents\n   :depth: 3\n\n'
+
+    'Toc Tree':
+        'prefix': 'toc'
+        'body': '.. toctree::\n   :maxdepth: 4\n\n   $1'
+
+    'Header 1 #':
+        'prefix': 'ha'
+        'body': '$1\n################################################################################\n\n'
+
+    'Header 2 *':
+        'prefix': 'hb'
+        'body': '$1\n********************************************************************************\n\n'
+
+    'Header 3 =':
+        'prefix': 'hc'
+        'body': '$1\n================================================================================\n\n'
+
+    'Header 4 -':
+        'prefix': 'hd'
+        'body': '$1\n--------------------------------------------------------------------------------\n\n'
+
+    'Header 5 ^':
+        'prefix': 'he'
+        'body': '$1\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\n'
+
+    'Header 6 "':
+        'prefix': 'hf'
+        'body': '$1\n""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""\n\n'
+
+    'Image':
+        'prefix': 'img'
+        'body': '.. image:: ../images/$1.png\n   :height: 100px\n   :width: 400 px\n   :align: center\n'
+
+    'Figure':
+        'prefix': 'fig'
+        'body': '\n.. figure:: ../images/a.png\n    :width: 200px\n    :align: center\n    :height: 100px\n    :alt: alternate text\n    :figclass: align-center\n\n    This is caption.\n'
+
+    'Footnote':
+        'prefix': 'footnote'
+        'body': '[#f1]_  \n\n.. rubric:: Footnotes\n\n.. [#f1] Text of the first footnote.\n\n'
+
+    'Cite':
+        'prefix': 'cite'
+        'body': '[book]_ \n\n.. [book] Name of book'
+
+    'Link':
+        'prefix': 'link'
+        'body': '`Link text <$1>`_'
+
+    'Link Two Lines':
+        'prefix': 'linkk'
+        'body': '`a link`_.\n\n.. _a link: $1\n\n'
+
+    'Table':
+        'prefix': 'tbl'
+        'body': '\n\n=====  =====  =======\nA      B      A and B\n=====  =====  =======\nF      F      F\nT      F      F\nF      T      F\nT      T      T\n=====  =====  =======\n\n'
+
+    'Table Large':
+        'prefix': 'tbll'
+        'body': '\n\n+------------------------+------------+----------+----------+\n| Header1                | Header 2   | Header 3 | Header 4 |\n+========================+============+==========+==========+\n| ..                     | 12         |   13     | 14       |\n+------------------------+------------+----------+----------+\n| 21                     | 22         | 23       |       24 |\n+------------------------+------------+----------+----------+\n\n'
+
+    'Subscript':
+        'prefix': 'ss'
+        'body': '|H2O|\n\n.. |H2O| replace:: H\ :sub:`2`\ O\n'
+
+    'Subscript':
+        'prefix': 'subscript'
+        'body': '|H2O|\n\n.. |H2O| replace:: H\ :sub:`2`\ O\n'
+
+    'Superscript':
+        'prefix': 'superscript'
+        'body': '|H2O|\n\n.. |H2O| replace:: H\ :sup:`2`\ O\n'
+
+    'Superscript':
+        'prefix': 'ss2'
+        'body': '|H2O|\n\n.. |H2O| replace:: H\ :sup:`2`\ O\n'
+
+    'Code':
+        'prefix': 'code'
+        'body': '::\n\n    $1.'
+
+    'New Line':
+        'prefix': 'n'
+        'body': '\n    $1'
+
+    'New Line Longer':
+        'prefix': 'nn'
+        'body': '\n| $1\n| $2'
+
+    'Doctest':
+        'prefix': 'rdoc'
+        'body': '>>> print ("This is a Doctest block")\nThis is a Doctest block'
+
+    'Hlist':
+        'prefix': 'hlist'
+        'body': '.. hlist::\n   :columns: 3\n\n   * A list of\n   * short items\n   * that should be\n   * displayed\n   * horizontally\n\n'
+
+    'Admonition Seealso':
+        'prefix': 'seealso'
+        'body': '.. seealso::\n\n   $1.'
+
+    'Admonition Seealso Longer':
+        'prefix': 'seealsoo'
+        'body': '.. seealso::\n   Module :py:mod:`zipfile`\n      Documentation of the :py:mod:`zipfile` standard module.\n\n   `GNU tar manual, Basic Tar Format <http://link>`_\n      Documentation for tar archive files, including GNU tar extensions.\n'
+
+    'Admonition Warning':
+        'prefix': 'warning'
+        'body': '.. warning::\n\n   $1.'
+
+    'Admonition Todo':
+        'prefix': 'todo'
+        'body': '.. admonition:: todo\n\n   $1'
+
+    'Admonition Info':
+        'prefix': 'info'
+        'body': '.. admonition:: Info\n\n   $1'
+
+    'Math':
+        'prefix': 'math'
+        'body': '.. :math:: $1'
+
+    'Math Longer':
+        'prefix': 'maths'
+        'body': '.. math::\n\n    n_{\mathrm{offset}} = \sum_{k=0}^{N-1} s_k n_k\n'
+
+    'Topic':
+        'prefix': 'topic'
+        'body': '.. topic:: Topic\n\n    $1.'
+
+    'Sidebar':
+        'prefix': 'sidebar'
+        'body': '.. sidebar:: Sidebar\n\n   $1.'
+
+    'Test Code':
+        'prefix': 'test'
+        'body': '.. testcode::\n\n    print("hi")\n\n.. testoutput::\n\n    hi\n'
+
+    'Class':
+        'prefix': 'rclass'
+        'body': ':class:`~className` '
+
+    'Method':
+        'prefix': 'meth'
+        'body': ':meth:`~className.method`'
+
+    'Single Index':
+        'prefix': 'single_index'
+        'body': '..  index::\nsingle: Pythagoras # gives bad>poetry and poetry>bad.'
+
+    'Paired Index':
+        'prefix': 'paired_index'
+        'body': '..  index::\npair: poetry; bad # gives bad>poetry and poetry>bad.'
+
+    'Frac Command':
+        'prefix': 'frac'
+        'body': '\frac{$1}{$2}'
+    #---------------------Snippets added later -------------------------
+    'MacOS Desktop Nofitication':
+            'prefix': 'notify'
+            'body': '''
+            def notify():
+            \ \ \ \ """Using desktop notifications in macos.
+
+            \ \ \ \ ..note::
+
+            \ \ \ \ To keep the notification button until you close it chage the
+            \ \ \ \ system preferences of the notifications.
+            \ \ \ \ System Preferences > Nofitications > Script Editor > Check all and choose alert
+
+            \ \ \ \ """
+            \ \ \ \ osa = r\'\'\'osascript -e \'display notification \'\'\'
+            \ \ \ \ tm = time.ctime()
+            \ \ \ \ msg = "\\\\" Program finished on \\\\n {}\\\\"".format(tm)
+            \ \ \ \ title = r\'\'\'with title "Notification"\'\'\'
+            \ \ \ \ notif = osa + msg + title + "\'&"
+            \ \ \ \ subprocess.call(notif, shell=True)
+            $0
+            '''
+
+##==============================================================================
+##  reStructuredText Snippets
+##==============================================================================
+'.text.restructuredtext':
+    'Snippets':
+        'prefix': 'snips'
+        'body': 'snippets'
+        'desc':'''
+        hdr
+        contents
+        toc
+        '''
+    'Contents':
+        'prefix': 'hdr'
+        'body': '.. contents:: Table of Contents\n   :depth: 3\n\n'
+
+    'Contents':
+        'prefix': 'contents'
+        'body': '.. contents:: Table of Contents\n   :depth: 3\n\n'
+
+    'Toc Tree':
+        'prefix': 'toc'
+        'body': '.. toctree::\n   :maxdepth: 4\n\n   $1'
+
+    'Header 1 #':
+        'prefix': 'ha'
+        'body': '$1\n################################################################################\n\n'
+
+    'Header 2 *':
+        'prefix': 'hb'
+        'body': '$1\n********************************************************************************\n\n'
+
+    'Header 3 =':
+        'prefix': 'hc'
+        'body': '$1\n================================================================================\n\n'
+
+    'Header 4 -':
+        'prefix': 'hd'
+        'body': '$1\n--------------------------------------------------------------------------------\n\n'
+
+    'Header 5 ^':
+        'prefix': 'he'
+        'body': '$1\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\n'
+
+    'Header 6 "':
+        'prefix': 'hf'
+        'body': '$1\n""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""\n\n'
+
+    'Image':
+        'prefix': 'img'
+        'body': '.. image:: ../images/$1.png\n   :height: 100px\n   :width: 400 px\n   :align: center\n'
+
+    'Figure':
+        'prefix': 'fig'
+        'body': '\n.. figure:: ../images/a.png\n    :width: 200px\n    :align: center\n    :height: 100px\n    :alt: alternate text\n    :figclass: align-center\n\n    This is caption.\n'
+
+    'Footnote':
+        'prefix': 'footnote'
+        'body': '[#f1]_  \n\n.. rubric:: Footnotes\n\n.. [#f1] Text of the first footnote.\n\n'
+
+    'Cite':
+        'prefix': 'cite'
+        'body': '[book]_ \n\n.. [book] Name of book'
+
+    'Link':
+        'prefix': 'link'
+        'body': '`Link text <$1>`_'
+
+    'Link Two Lines':
+        'prefix': 'link2'
+        'body': '`a link`_.\n\n.. _a link: $1\n\n'
+
+    'Table':
+        'prefix': 'tbl'
+        'body': '\n\n=====  =====  =======\nA      B      A and B\n=====  =====  =======\nF      F      F\nT      F      F\nF      T      F\nT      T      T\n=====  =====  =======\n\n'
+
+    'Table Large':
+        'prefix': 'tbl2'
+        'body': '\n\n+------------------------+------------+----------+----------+\n| Header1                | Header 2   | Header 3 | Header 4 |\n+========================+============+==========+==========+\n| ..                     | 12         |   13     | 14       |\n+------------------------+------------+----------+----------+\n| 21                     | 22         | 23       |       24 |\n+------------------------+------------+----------+----------+\n\n'
+
+    'Subscript':
+        'prefix': 'ss'
+        'body': '|H2O|\n\n.. |H2O| replace:: H\ :sub:`2`\ O\n'
+
+    'Subscript':
+        'prefix': 'subscript'
+        'body': '|H2O|\n\n.. |H2O| replace:: H\ :sub:`2`\ O\n'
+
+    'Superscript':
+        'prefix': 'superscript'
+        'body': '|H2O|\n\n.. |H2O| replace:: H\ :sup:`2`\ O\n'
+
+    'Superscript':
+        'prefix': 'ss2'
+        'body': '|H2O|\n\n.. |H2O| replace:: H\ :sup:`2`\ O\n'
+
+    'Code':
+        'prefix': 'code'
+        'body': '::\n\n    $1.'
+
+    'New Line':
+        'prefix': 'n'
+        'body': '\n    $1'
+
+    'New Line Longer':
+        'prefix': 'nn'
+        'body': '\n| $1\n| $2'
+
+    'Doctest':
+        'prefix': 'doc'
+        'body': '>>> print ("This is a Doctest block")\nThis is a Doctest block'
+
+    'Hlist':
+        'prefix': 'hlist'
+        'body': '.. hlist::\n   :columns: 3\n\n   * A list of\n   * short items\n   * that should be\n   * displayed\n   * horizontally\n\n'
+
+    'Admonition Seealso':
+        'prefix': 'seealso'
+        'body': '.. seealso::\n\n   $1.'
+
+    'Admonition Seealso Longer':
+        'prefix': 'seealsoo'
+        'body': '.. seealso::\n   Module :py:mod:`zipfile`\n      Documentation of the :py:mod:`zipfile` standard module.\n\n   `GNU tar manual, Basic Tar Format <http://link>`_\n      Documentation for tar archive files, including GNU tar extensions.\n'
+
+    'Admonition Warning':
+        'prefix': 'warning'
+        'body': '.. warning::\n\n   $1.'
+
+    'Admonition Todo':
+        'prefix': 'todo'
+        'body': '.. admonition:: todo\n\n   $1'
+
+    'Admonition Info':
+        'prefix': 'info'
+        'body': '.. admonition:: Info\n\n   $1'
+
+    'Math':
+        'prefix': 'math'
+        'body': '.. :math:: $1'
+
+    'Math Longer':
+        'prefix': 'maths'
+        'body': '.. math::\n\n    n_{\mathrm{offset}} = \sum_{k=0}^{N-1} s_k n_k\n'
+
+    'Topic':
+        'prefix': 'topic'
+        'body': '.. topic:: Topic\n\n    $1.'
+
+    'Sidebar':
+        'prefix': 'sidebar'
+        'body': '.. sidebar:: Sidebar\n\n   $1.'
+
+    'Test Code':
+        'prefix': 'test'
+        'body': '.. testcode::\n\n    print("hi")\n\n.. testoutput::\n\n    hi\n'
+
+    'Class':
+        'prefix': 'class'
+        'body': ':class:`~className` '
+
+    'Method':
+        'prefix': 'meth'
+        'body': ':meth:`~className.method`'
+
+    'Single Index':
+        'prefix': 'single_index'
+        'body': '..  index::\nsingle: Pythagoras # gives bad>poetry and poetry>bad.'
+
+    'Paired Index':
+        'prefix': 'paired_index'
+        'body': '..  index::\npair: poetry; bad # gives bad>poetry and poetry>bad.'
+
+    'Frac Command':
+        'prefix': 'frac'
+        'body': '\frac{$1}{$2}'
+
+    '':
+        'prefix': 'x'
+        'body': ''
+
+    '':
+        'prefix': 'x'
+        'body': ''
+
+    '':
+        'prefix': 'x'
+        'body': ''
+
+    '':
+        'prefix': 'x'
+        'body': ''
+
+    '':
+        'prefix': 'x'
+        'body': ''
+
+    '':
+        'prefix': 'x'
+        'body': ''
+
+    '':
+        'prefix': 'x'
+        'body': ''
+
+    '':
+        'prefix': 'x'
+        'body': ''
+
+    '':
+        'prefix': 'x'
+        'body': ''
+
+    '':
+        'prefix': 'x'
+        'body': ''
+
+    '':
+        'prefix': 'x'
+        'body': ''
+
+
+
+##==============================================================================
+##  Markdown Snippets
+##==============================================================================
+'.source.gfm':
+  'Insert Date':
+    'prefix': 'xdate'
+    'body': 'My name - $date'
+    'variables':
+      'date': '''
+        require moment
+        moment().format("YYYY-MM-DD")
+      '''
+
+  'Insert Date':
+    'prefix': 'xd'
+    'body': 'My name - $date'
+    'variables':
+      'date': '''
+        require date
+        date.date()
+      '''
+
+##==============================================================================
+##  Latex Snippets
+## h=eta q=theta f=phi c=chi y=psi w=omega t=tau x=xi
+##==============================================================================
+# 1. My Snippets 2. Sections 3. Environments 4. Elements e.g. listing page
+# 5. Math Symbols 6. Greek Letters and Capital Greek Letters 7. Bold Grk Letters
+# 8. Dollar Enclosed Greek Letters 9. Dollar Enclosed Bold Greek Letters
+#
+# Greek Alphabet
+# 1. alpha beta gamma delta epsilon
+# 2. zeta eta=h
+# 3. theta=q
+# 4. iota kappa lambda
+# 5. mu nu xi omicron
+# 6. pi rho sigma tau upsilon
+# 7. phi=f
+# 8. chi=c psi=y omega=w
+'.text.tex.latex':
+  #-----------------------------------------------------------------------------
+  # Header
+  'Header':
+    'prefix': 'hdr'
+    'body': '''
+    %!TEX
+    % Author: Bhishan Poudel
+    % Date  : $1
+    % Topic : $2
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    $0
+    '''
+  'Author':
+    'prefix': 'aut'
+    'body': '\\\\\\author{Bhishan Poudel}$0'
+  'Title':
+    'prefix': 'tit'
+    'body': '\\\\\\title{$1}$0'
+  'Document':
+    'prefix': 'doc'
+    'body': '''
+    \\\\\\begin{document}
+    $1
+    \\\\\\end{document}
+    '''
+  # Text Formatting
+  'textbf':
+    'prefix': 'tbf'
+    'body': '\\\\textbf{$1} $0'
+  'italic':
+    'prefix': 'tit'
+    'body': '\\\\textit{$1} $0'
+  'emphasize':
+    'prefix': 'emp'
+    'body': '\\\\emph{$1} $0'
+  'underline':
+    'prefix': 'und'
+    'body': '\\\\underline{$1} $0'
+  #-----------------------------------------------------------------------------
+  # Maths Formatting
+  'Fraction':
+    'prefix': 'fr' # Note: We can not autocomplete two things at one time.
+    'body': '\\\\frac{$1}{$2}\\\\ \ $0' # We can not use ba tab inside frac
+  'qquad':
+    'prefix': 'qq'
+    'body': '\\\\qquad\ '
+  'integral':
+    'prefix': 'int'
+    'body': '\\\\int\ '
+  'integral with limits':
+    'prefix': 'intt'
+    'body': '\\\\int_{$1}{$2}\ '
+  'Double Dollars':
+    'prefix': '$'
+    'body': '\$$1\$\ $0'
+  'Double Dollar Signs':
+    'prefix': 'dd'
+    'body': '\$$1\$\ $0'
+  'Square Root':
+    'prefix': 'sq'
+    'body': '\\\\sqrt{$1}'
+  'Parenthesis':
+    'prefix': 'pr'
+    'body': '\\\\sqrt{$1}'
+  'Right Arrow':
+    'prefix': 'rar'
+    'body': '\\\\rightarrow\ '
+  'Absolute Value': # We need to use newcommand
+    'prefix': 'abs' # \newcommand{\abs}[1]{\lvert#1\rvert}
+    'body': '\\\\abs{$1}$0'
+  'Absolute Square': # We need to use newcommand
+    'prefix': 'absq' # \newcommand{\abs}[1]{\lvert#1\rvert}
+    'body': '\\\\abs{$1}^2$0'
+  #-----------------------------------------------------------------------------
+  # matrix pmatrix bmatrix vmatrix from amsmath
+  'matrix':
+    'prefix': 'mat'
+    'body': '''
+    \$\$
+    \\\\begin{matrix}
+      $1 & $2 \\\\\\\\
+      $3 & $4
+    \\\\end{matrix}
+    \$\$
+    '''
+  'pmatrix':
+    'prefix': 'pmat'
+    'body': '''
+    \$\$
+    \\\\begin{pmatrix}
+      $1 & $2 \\\\\\\\
+      $3 & $4
+    \\\\end{pmatrix}
+    \$\$
+    '''
+  'bmatrix':
+    'prefix': 'bmat'
+    'body': '''
+    \$\$
+    \\\\begin{bmatrix}
+      $1 & $2 \\\\\\\\
+      $3 & $4
+    \\\\end{bmatrix}
+    \$\$
+    '''
+  'vmatrix':
+    'prefix': 'vmat'
+    'body': '''
+    \$\$
+    \\\\begin{vmatrix}
+      $1 & $2 \\\\\\\\
+      $3 & $4
+    \\\\end{vmatrix}
+    \$\$
+    '''
+  'Vmatrix':
+    'prefix': 'Vmat'
+    'body': '''
+    \$\$
+    \\\\begin{Vmatrix}
+      $1 & $2 \\\\\\\\
+      $3 & $4
+    \\\\end{Vmatrix}
+    \$\$
+    '''
+  'bmatrix mn':
+    'prefix': 'matmn'
+    'body': '''
+    \$\$
+    \\\\begin{bmatrix}
+      x_{11} & x_{12} & x_{13} & \\\\dots & x_{1n} \\\\\\\\
+      x_{21} & x_{22} & x_{23} & \\\\dots & x_{2n} \\\\\\\\
+      \\\\vdots & \\\\vdots & \\\\vdots & \\\\ddots & \\\\vdots \\\\\\\\
+      x_{m1} & x_{m2} & x_{m3} & \\\\dots & x_{mn}
+    \\\\end{bmatrix}
+    \$\$
+    '''
+
+  #-----------------------------------------------------------------------------
+  # Astronomy
+  'mass of sun':
+    'prefix': 'msun'
+    'body': 'M_\{\\\\\\odot\}\ '
+  'mass of sun dollar enclosed':
+    'prefix': 'xmsun'
+    'body': '\$M_\{\\\\\\odot\}\$'
+  'radius of sun':
+    'prefix': 'rsun'
+    'body': 'R_\{\\\\\\odot\}\ '
+  'radius of sun dollar enclosed':
+    'prefix': 'xrsun'
+    'body': '\$R_\{\\\\\\odot\}\$'
+  #-----------------------------------------------------------------------------
+  # Environments
+  'Figure Environement':
+    'prefix': 'fig'
+    'body': '''
+    \\\\begin{figure}[ht!]
+        \\\\centering
+        \\\\includegraphics[width=0.5\\\\textwidth]{${1:only_basename}}
+        \\\\caption[$2]{$2}
+        \\\\label{[fig:$1]}
+    \\\\end{figure}
+    $0
+    '''
+  'Figure Environement With Citation':
+    'prefix': 'figg'
+    'body': '''
+    \\\\begin{figure}[ht!]
+        \\\\centering
+        \\\\includegraphics[width=0.5\\\\textwidth]{${1:only_basename}}
+        \\\\caption[$2]{$2 ~\\\\protect\\\\cite{$3}}
+        \\\\label{[fig:$1]}
+    \\\\end{figure}
+    $0
+    '''
+  'Easy List & &&':
+    'prefix': 'list'
+    'body': '''
+            \\\\begin{easylist}
+
+              & {$1}
+              & {$2}
+              & {$3}
+            \\\\end{easylist}
+            '''
+  'Align(ed)':
+    'prefix': 'ali'
+    'body': '''
+      \\\\begin{align}\\\\label{[eq:$1]}
+        $2 & = $3 \\\\\\\\
+        $4  & = $5 \\\\nonumber \\\\\\\\
+        $6  & = $7 \\\\nonumber
+      \\\\end{align}
+      $0
+    '''
+  'Align Equation':
+    'prefix': 'eqa'
+    'body': '''
+      \\\\begin{align}\\\\label{[eq:$1]}
+        $2 & = $3 \\\\\\\\
+        $4  & = $6 \\\\nonumber \\\\\\\\
+        $7  & = $8 \\\\nonumber
+      \\\\end{align}
+      $0
+    '''
+  'Description':
+    'prefix': 'desc'
+    'body': '\\begin{description}\n\t\\item[$1]$2\n\\end{description}'
+  'Enumerate':
+    'prefix': 'enum'
+    'body': '\\begin{enumerate}\n\t\\item $1\n\\end{enumerate}'
+  'Itemize':
+    'prefix': 'item'
+    'body': '\\begin{itemize}\n\t\\item $1\n\\end{itemize}'
+  'Split':
+    'prefix': 'spl'
+    'body': '\\begin{split}\n\t$0\n\\end{split}'
+  'Equation':
+    'prefix': 'eq'
+    'body': '\\\\begin{eqnarray}\\\\label{[eq:$1]}\n\t$2\n\\\\end{eqnarray}'
+  'Equation Aligned':
+    'prefix': 'eqa'
+    'body': '''
+    \\\\begin{eqnarray}\\\\label{[eq:$1]}
+        $2 &=& $3 \\\\\\\\
+        $4 &=& $5 \\\\nonumber
+    \\\\end{eqnarray}
+    '''
+  'Equation Alignedd':
+    'prefix': 'eqaa'
+    'body': '''
+    \\\\begin{eqnarray}\\\\label{[eq:$1]}
+        $2 &=& $3 \\\\\\\\
+        $4 &=& $5 \\\\nonumber \\\\\\\\
+        $6 &=& $7 \\\\nonumber
+    \\\\end{eqnarray}
+    '''
+  'Gather(ed)':
+      'prefix': 'gat'
+      'body': '\\begin{gather}\n\t$0\n\\end{gather}'
+  'Cases':
+      'prefix': 'cas'
+      'body': '\\begin{cases}\n\t${1:equation}, &\\text{ if }${2:case}\\\\\n\t$0\n\\end{cases}'
+  #-----------------------------------------------------------------------------
+  # Sections
+  'Part':
+    'prefix': 'part'
+    'body': '''
+    \\paragraph{${1:part name}}\n\\label{part:${1:part label}}\n$2
+    '''
+  'Chapter':
+    'prefix': 'cha'
+    'body': '''
+    \\chapter{${1:chapter name}}\n\\label{chap:${1:chapter label}}\n$2
+    '''
+  'Section':
+    'prefix': 'sec'
+    'body': '''
+    %
+    %
+    %#******************************************************************************
+    %#==============================================================================
+    %#          Section : $1
+    %#==============================================================================
+    %#******************************************************************************
+    %
+    %
+    \\\\\\section{$1}\\\\label{sec:$2}
+    '''
+  'Sub Section':
+    'prefix': 'sub'
+    'body': '''
+    %
+    %
+    %#------------------------------------------------------------------------------
+    %#          Subsection 1a: $1
+    %#------------------------------------------------------------------------------
+    %
+    %
+    \\\\\\subsection{$1}\\\\\\label{subsec:$2}\n$0
+    '''
+  'Sub Sub Section':
+    'prefix': 'subsub'
+    'body': '''
+    %
+    %
+    %```````````````````````````````````````````````````````````````````````````````
+    %         Subsubsection : ${1:subsubsection name}
+    %```````````````````````````````````````````````````````````````````````````````
+    %
+    \\\\subsubsection{$1}\\\\label{subsusb:${2}}\n$0
+    '''
+  'Paragraph':
+    'prefix': 'para'
+    'body': '''
+    \\paragraph{${1:paragraph name}}\n\\label{par:${1:paragraph label}}\n$2
+    '''
+  'Sub Paragraph':
+    'prefix': 'subp'
+    'body': '''
+    \\subparagraph{${1:subparagraph name}}\n\\label{subp:${1:subparagraph label}}\n$2
+    '''
+  #-----------------------------------------------------------------------------
+  # References and citations
+  'Listing':
+    'prefix': 'listing'
+    'body': '${1:Listing}~\\ref{${2:lst:}}$0'
+  'Page':
+    'prefix': 'page'
+    'body': '${1:page}~\\pageref{$2}$0'
+  'Table':
+    'prefix': 'table'
+    'body': '${1:Table}~\\ref{${2:tab:}}$0'
+  #-----------------------------------------------------------------------------
+
+  #-----------------------------------------------------------------------------
+  # Beamer Presentation
+  'Beamer Frame':
+    'prefix': 'bmf'
+    'body': '''
+    \\\\begin{frame}
+      \\\\frametitle{$1}
+      $2
+    \\\\end{frame}
+    $0
+    '''
+  'Beamer Equation Highlight':
+    'prefix': 'bmeqh'
+    'body': '''
+    \\\\begin{frame}
+      \\\\frametitle{$1}
+      \\\\begin{align}
+        \\\\colorbox{blue!20}{$ x^2 + y^2$} &= 4
+        \\\\end{align}
+    \\\\end{frame}
+    $0
+    '''
+  'Beamer Block Blue':
+    'prefix': 'bmblue'
+    'body': '''
+    \\\\begin{block}{Blue Title}
+      Sample text in normal color.
+    \\\\end{block}
+    $0
+    '''
+  'Beamer Alertblock Red':
+    'prefix': 'bmred'
+    'body': '''
+    \\\\begin{alertblock}{Red Title}
+      Sample text in normal color.
+    \\\\end{alertblock}
+    $0
+    '''
+  'Beamer Examples Green':
+    'prefix': 'bmgreen'
+    'body': '''
+    \\\\begin{examples}
+      "Examples" is fixed as block title.
+    \\\\end{examples}
+    $0
+    '''
+  'Beamer Arrow Equation Term':
+    'prefix': 'bmarr'
+    'body': '''
+\\\\begin{frame}
+\\\\frametitle{Using Arrows in tikz}
+  % First page is the equation without arrow
+  \\\\begin{itemize}
+    \\\\item<2-> Overall mean \\\\tikz[na] \\\\node[coordinate] (s1) {};
+    \\\\item<1->[]{%
+    \\\\begin{equation}
+      y_{ijk} = \\\\tikz[baseline]{ \\\\node[fill=blue!20,anchor=base,rounded corners=2pt]
+              (d1) {$\\\\mu$}; }
+              + \\\\epsilon_{ijk}
+    \\\\end{equation}}%
+  \\\\end{itemize}
+
+  % This part is for arrow overlay equation in next page.
+  \\\\begin{tikzpicture}[overlay]
+  \\\\path<2->[->] (s1) edge [bend left] (d1);
+  \\\\end{tikzpicture}
+\\\\end{frame}
+    $0
+    '''
+#-----------------------------------------------------------
+# Hyperlink color etc
+  'Hyperlink':
+    'prefix': 'hyp'
+    'body': '''
+    \\\\\\usepackage{hyperref}
+    \\\\\\hypersetup{colorlinks=true,linkcolor=orange,filecolor=magenta,urlcolor=cyan,
+                     citecolor=DarkRed, bookmarks=true }
+    $0
+    '''
+  'Highlight':
+    'prefix': 'hlt'
+    'body': '''
+    \\\\usepackage{amsmath,amssymb}
+    \\\\usepackage{xcolor}
+    % \\\\highlight[<colour>]{<stuff>}
+    \\\\newcommand{\\\\highlight}[2][yellow]{\\\\mathchoice
+      {\\\\colorbox{#1}{$\\\\displaystyle#2$}}
+      {\\\\colorbox{#1}{$\\\\textstyle#2$}}
+      {\\\\colorbox{#1}{$\\\\scriptstyle#2$}}
+      {\\\\colorbox{#1}{$\\\\scriptscriptstyle#2$}}}
+    $0
+    '''
+  'Colored Boxed':
+    'prefix': 'box'
+    'body': '''
+    % colored box
+    \\\\\\usepackage{tikz}
+    \\\\\\usetikzlibrary{calc}
+    % put color to \\\\boxed math command
+    \\\\newcommand*{\\\\boxcolor}{orange}
+    \\\\makeatletter
+    \\\\renewcommand{\\\\boxed}[1]{\\\\textcolor{\\\\boxcolor}{%
+    \\\\tikz[baseline={([yshift=-1ex]current bounding box.center)}] \\\\node [rectangle, minimum
+    width=1ex,rounded corners,draw] {\\\\normalcolor\\\\m@th$\\\\displaystyle#1$};}}
+    \\\\makeatother
+    $0
+    '''
+  'Beamer Preamble':
+    'prefix': 'bmtmp'
+    'body': '''
+%!TEX
+% Author: Bhishan Poudel
+% Date  : Aug 21, 2017 Mon
+% Topic : Presentation using beamer
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\\\\documentclass{beamer}
+\\\\usepackage[utf8]{inputenc}
+\\\\usepackage{utopia} %font utopia imported
+\\\\usetheme{Madrid}
+\\\\usecolortheme{default}
+%other packages
+\\\\usepackage{amsmath,amssymb}
+\\\\usepackage{fancybox}
+\\\\usepackage{xcolor}
+\\\\usepackage{hyperref}
+\\\\hypersetup{colorlinks=true,linkcolor=orange,filecolor=magenta,urlcolor=cyan,
+            citecolor=DarkRed, bookmarks=true }
+%% colored box
+\\\\usepackage{tikz}
+\\\\usetikzlibrary{calc}
+% put color to \\\\boxed math command
+\\\\newcommand*{\\\\boxcolor}{orange}
+\\\\makeatletter
+\\\\renewcommand{\\\\boxed}[1]{\\\\textcolor{\\\\boxcolor}{%
+\tikz[baseline={([yshift=-1ex]current bounding box.center)}] \node [rectangle, minimum
+width=1ex,rounded corners,draw] {\\\\normalcolor\\\\m@th$\\\\displaystyle#1$};}}
+\\\\makeatother
+
+
+
+%------------------------------------------------------------
+%% Title Page
+\\\\title[Astroseminar Fall 2017] %optional
+{Title of  Presentation}
+% \\\\subtitle{Subtitle}
+\\\\author[Poudel, Bhishan] % (optional)
+{~B.~Poudel\\\\inst{1} }
+
+\\\\institute[Ohio University] % (optional)
+{\\\\inst{1}%
+  Department of Physics and Astronomy\\\\\\\\
+  Ohio University
+}
+\\\\date[Aug 21, 2017] % (optional)
+{} % We can write text here
+\\\\logo{\\\\includegraphics[height=1.5cm]{ou.jpeg}}
+
+
+%------------------------------------------------------------
+% Table of Contents
+\\\\AtBeginSection[]
+{
+  \\\\begin{frame}
+    \\\\frametitle{Table of Contents}
+    \\\\tableofcontents[currentsection]
+  \\\\end{frame}
+}
+
+
+%------------------------------------------------------------
+%%%%%%%% Begin of Document%%%%%%%%%%%
+\\\\begin{document}
+\\\\frame{\\\\titlepage}
+\\\\begin{frame}
+\\\\frametitle{Table of Contents}
+\\\\tableofcontents
+\\\\end{frame}
+\\\\section{First section}
+\\\\begin{frame}
+  \\\\frametitle{Example to make text visible using \\item command}
+  Write text here.
+\\\\end{frame}
+\\\\end{document}
+    $0
+    '''
+#------------------------------------------------------------
+# Just for prospectus
+  'a1':
+    'prefix': 'da'
+    'body': 'deflection angle '
+  'a2':
+    'prefix': 'ea'
+    'body': 'Einstein angle '
+  'a3':
+    'prefix': 'gl'
+    'body': 'gravitational lensing '
+  '1/2':
+    'prefix': 'f12'
+    'body': '\\\\frac{1}{2}\ $0'
+  'nonumber':
+    'prefix': 'no'
+    'body': '\\\\nonumber'

@@ -1,0 +1,13 @@
+Author: Bhishan Poudel
+Date: July 28, 2017
+
+To login to another github account from same computer
+======================================================
+git remote set-url origin https://USERNAME@github.com/USERNAME/PROJECTNAME.git
+https://github.com/bpresearch/Research
+
+
+example:
+git remote set-url origin https://bpresearch@github.com/bpresearch/Research.git
+git clone https://github.com/bpresearch/Research.git
+cd Research

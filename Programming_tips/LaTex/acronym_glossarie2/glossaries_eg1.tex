@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+% \usepackage[acronym,nomain,nonumberlist]{glossaries}
+\usepackage[acronym,nonumberlist]{glossaries}
+
+\makeglossaries
+
+%% Glossaries
+\newglossaryentry{latex}
+{
+        name=latex,
+        description={Is a mark up language specially suited for
+scientific documents}
+}
+
+\newglossaryentry{maths}
+{
+        name=mathematics,
+        description={Mathematics is what mathematicians do}
+}
+
+\newglossaryentry{formula}
+{
+        name=formula,
+        description={A mathematical expression}
+}
+
+%% Acronyms
+\newacronym{gcd}{GCD}{Greatest Common Divisor}
+\newacronym{lcm}{LCM}{Least Common Multiple}
+
+\begin{document}
+
+Use glossaries using gls Gls and Glspl.
+\gls{maths} \Gls{latex} \Glspl{formula}
+
+
+Using acronyms using arcshort, arclong and arcfull.
+ \acrshort{gcd}. \acrlong{gcd}
+ \acrshort{lcm} \acrfull{lcm}
+
+
+
+
+
+% \printglossary[type=\acronymtype,style=long,nonumberlist] % only acronym if uspackae is also so
+\printglossary[type=main,style=long,nonumberlist] % only acronym
+\end{document}

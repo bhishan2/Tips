@@ -1,0 +1,103 @@
+Bhishan Poudel
+Nov 3, 2015
+
+ref: http://en.flossmanuals.net/command-line/ch019_command-history/
+The three most useful modifiers are: *, !^, and !$, which are 
+shortcuts for all, first, and last arguments respectively.
+
+some commands about history using terminal
+==========================================
+
+1. replace all argument after the command (!*)
+================================================================================
+tooch a.txt b.txt c.txt
+touch !*
+
+rm a.txt b.txt c.txt
+
+eg.2  touch 'file'{1,2,3}.txt         or, mkdir and rmdir
+      rm !*
+
+2. replace the first argument (!^)
+================================================================================
+touch a.txt b.txt c.txt
+rm !^   ## rm a.txt
+
+3. replace the last argument (!$)
+================================================================================
+
+touch a.txt b.txt c.txt
+rm !$  # rm c.txt
+
+4. reverse the arguments (!$ !^)
+================================================================================
+touch a.txt
+mkdir temp
+mv a.txt temp/a.txt
+
+BUT WE WANT TO COPY NOT MOVE:
+
+cp !$ !^
+or,
+cp ^mv^cp
+
+
+note: rm ./temp/a.txt
+note: ls ./temp/
+
+5. replace first occurence of a given string of  immediate last command
+================================================================================ 
+
+wc file1 : note wc = word count  (lines, words, characters)
+^1^2     (= wc fil2)  ( for file3 do: ^2^3)
+
+next example
+=============
+rm file1
+rm !$:s/1/2/    !$ is last command, s is substitute
+
+next example
+=============
+touch fileseasea.txt
+^sea^zz
+
+note: touch file1.txt file2.txt
+note: rm -f file1.txt file2.txt
+note: rm -f file* (everything starting with file)
+
+6. search by matching string
+================================================================================
+press ctrl r,  then type the letter, then enter
+
+7. command from history
+================================================================================
+history   ( shows command with number)
+
+!504 (command number 504)
+!-4 ( 4th last command)
+
+================================================================================
+================================================================================
+8. delete all but one file in a directory:
+   for bash only, include a line called shopt -s extglob in .bashrc, then:
+   
+   touch 'file'{1,2,3,4}.txt; ls              use ECHO instead of RM command
+   ls
+   rm !(file3.txt)
+   rm !(file1.txt|file2.txt); ls
+   
+   touch {a,b,c,d}.txt; ls
+   rm !([ab].txt); ls
+   
+   
+9. more portable option is:
+   touch 'file'{1,2,3,4}.txt          note: here, we can also press ctrl r then to 
+   find . -maxdepth 1 -not -name 'file3.txt' -iname '*.txt' -delete
+   find . -maxdepth 1 -not -name 'file3.txt' -not -name 'file2.txt' -iname '*.txt' -delete
+   
+   here, iname also matches TXT and is case insensitive
+   
+
+
+
+

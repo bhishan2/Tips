@@ -1,0 +1,11 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{amsmath}
+\usepackage[customcolors,shade]{hf-tikz}
+
+\begin{document}
+\begin{align*}
+     \tikzmarkin[fill=yellow]{first eq}a &= b\tikzmarkend{first eq} &          c  &= d \\
+      c &= d &         i &= k \\
+     \tikzmarkin{second eq}e &= f\tikzmarkend{second eq} &          \hfsetbordercolor{blue}\tikzmarkin[top color=white, bottom color=blue!20]{third eq}g  &= h\tikzmarkend{third eq}
+\end{align*}
+\end{document}

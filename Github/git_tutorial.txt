@@ -1,0 +1,45 @@
+# Author    : Bhishan Poudel
+# Date      : Jul 14, 2016
+
+
+setting default user: (type these in the terminal)
+git config --global user.email "bhishantryphysics@gmail.com"
+git config --global user.name "bhishanpdl"
+
+
+
+
+
+1. push a file from local to remote
+
+git init
+git clone https://github.com/bhishanpdl/practice.git
+
+cd Jul <tab<
+
+echo hello > hello.txt
+ls
+git add .
+git commit -m "first commit"
+git push
+
+refresh webpage, we can see a file
+
+##=============================================================================
+2. Edit in the website then pull it:
+
+git fetch https://github.com/bhishanpdl/practice.git
+git checkout FETCH_HEAD a.txt
+
+##=============================================================================
+3. Edit locally and push again
+git status
+git add a.txt
+git commit -m "pushed again"
+git push
+
+
+
+4. Add another folder
+mkdir subfolder2
+cd 

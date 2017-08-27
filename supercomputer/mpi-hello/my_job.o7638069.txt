@@ -1,0 +1,62 @@
+Hello MPI World From process 0: Num processes: 48
+Hello MPI World from process 1!
+Hello MPI World from process 2!
+Hello MPI World from process 3!
+Hello MPI World from process 4!
+Hello MPI World from process 5!
+Hello MPI World from process 6!
+Hello MPI World from process 7!
+Hello MPI World from process 8!
+Hello MPI World from process 9!
+Hello MPI World from process 10!
+Hello MPI World from process 11!
+Hello MPI World from process 12!
+Hello MPI World from process 13!
+Hello MPI World from process 14!
+Hello MPI World from process 15!
+Hello MPI World from process 16!
+Hello MPI World from process 17!
+Hello MPI World from process 18!
+Hello MPI World from process 19!
+Hello MPI World from process 20!
+Hello MPI World from process 21!
+Hello MPI World from process 22!
+Hello MPI World from process 23!
+Hello MPI World from process 24!
+Hello MPI World from process 25!
+Hello MPI World from process 26!
+Hello MPI World from process 27!
+Hello MPI World from process 28!
+Hello MPI World from process 29!
+Hello MPI World from process 30!
+Hello MPI World from process 31!
+Hello MPI World from process 32!
+Hello MPI World from process 33!
+Hello MPI World from process 34!
+Hello MPI World from process 35!
+Hello MPI World from process 36!
+Hello MPI World from process 37!
+Hello MPI World from process 38!
+Hello MPI World from process 39!
+Hello MPI World from process 40!
+Hello MPI World from process 41!
+Hello MPI World from process 42!
+Hello MPI World from process 43!
+Hello MPI World from process 44!
+Hello MPI World from process 45!
+Hello MPI World from process 46!
+Hello MPI World from process 47!
+
+-----------------------
+Resources requested:
+nodes=4:ppn=12
+-----------------------
+Resources used:
+cput=00:00:00
+walltime=00:00:04
+mem=0.009 GB
+vmem=0.238 GB
+-----------------------
+Resource units charged (estimate):
+0.005 RUs
+-----------------------

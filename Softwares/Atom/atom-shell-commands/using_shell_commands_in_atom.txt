@@ -1,0 +1,78 @@
+********************************************************************************
+# ==============================================================================
+# Date   : Aug 21, 2017 Mon
+# Summary: Using Shell Commands in Atom
+# ==============================================================================
+# Ref: https://atom.io/packages/atom-shell-commands
+1. install atom-shell-commands
+2. Write shell commands in ~/.atom/config.cson
+3. The command might automatically goes up in the file.
+   On date Aug 21, 2017 Mon, when I restarted the Atom, the file config.cson
+   was not saved.
+   To change this:
+   sudo -H chmod a+rwx ~/.atom/config.cson
+
+4. Quit and open again the atom and look for changed file.
+
+# Test    ls
+
+Example:
+  "atom-shell-commands":
+    commands: [
+      {
+        name: "run_script"
+        command: "bash"
+        arguments: [
+          "run_script.sh"
+          "{FileName}"
+        ]
+        options:
+          cwd: "{FileDir}"
+          keymap: "ctrl-5"
+      }
+    ]
+    # Another example
+    commands: [
+      {
+        name: "man"
+        command: "/usr/bin/man"
+        arguments: [
+          "{CurWord}"
+        ]
+        options:
+          cwd: "{FileDir}"
+          keymap: "ctrl-1"
+      }
+    ]
+    # For some reasons only last command is saved in config.cson
+    commands: [
+      {
+        name: "backup"
+        command: "cp"
+        arguments: [
+          "{FileName}"
+          "/Users/poudel/Dropbox/FileBackups/macpro_{FileNameNoExt}{FileExt}"
+        ]
+        options:
+          cwd: "{FileDir}"
+          keymap: "ctrl-2"
+      }
+    ]
+
+
+
+# Aug 21, 2017 Mon For some reason only one command is saved in config.cson
+  "atom-shell-commands":
+    commands: [
+      {
+        name: "backup"
+        command: "cp"
+        arguments: [
+          "{FileName}"
+          "/Users/poudel/Dropbox/FileBackups/macpro_{FileNameNoExt}{FileExt}"
+        ]
+        options:
+          cwd: "{FileDir}"
+          keymap: "ctrl-2"
+      }
+    ]

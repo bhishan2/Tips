@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{First section}{3}{0}{1}
+\beamer@sectionintoc {2}{Section 2: Highlighted Red Green Blue boxes}{11}{0}{2}
+\beamer@sectionintoc {3}{Section 3: Highlight equation using xcolor colorbox}{15}{0}{3}
+\beamer@sectionintoc {4}{Section 4: Highlight displaymath term using newcommand}{18}{0}{4}
+\beamer@sectionintoc {5}{Section 5: Tikz Arrows}{20}{0}{5}

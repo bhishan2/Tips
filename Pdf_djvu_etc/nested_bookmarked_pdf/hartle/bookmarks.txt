@@ -1,0 +1,145 @@
+Chapter 1 Gravitational Physics 3
+Chapter 2 Geometry as Physics 13
+2.1 Gravity Is Geometry 13
+2.2 Experiments in Geometry 15
+2.3 Different Geometries 18
+2.4 Specifying Geometry 20
+2.5 Coordinates and Line Element 21
+2.6 Coordinates and Invariance 27
+Chapter 3  Space, Time, and Gravity in Newtonian Physics 31
+3.1 Inertial Frames 31
+3.2 The Principle of Relativity 36
+3.3 Newtonian Gravity 38
+3.4 Gravitational and Inertial Mass 41
+3.5 Variational Principle for Newtonian Mechanics 42
+Chapter 4  Principles of Special Relativity 47
+4.1 The Addition of Velocities and the Michelson—Morley Experiment 47
+4.2 Einstein's Resolution and Its Consequences 49
+4.3 Spacetime 52
+4.4 Time Dilation and the Twin Paradox 60
+4.5 Lorentz Boosts 65
+4.6 Units 71
+Chapter 5  Special Relativistic Mechanics 77
+5.1 Four-Vectors 77
+5.2 Special Relativistic Kinematics 82
+5.3 Special Relativistic Dynamics 85
+5.4 Variational Principle for Free Particle Motion 89
+5.5 Light Rays 91
+5.6 Observers and Observations 95
+Chapter 6  Gravity as Geometry 107
+6.1 Testing the Equality of Gravitational and Inertial Mass 107
+6.2 The Equivalence Principle 110
+6.3 Clocks in a Gravitational Field 113
+6.4 The Global Positioning System 121
+6.5 Spacetime Is Curved 125
+6.6 Newtonian Gravity in Spacetime Terms 126
+Chapter 7  The Description of Curved Spacetime 135
+7.1 Coordinates 135
+7.2 Metric 138
+7.3 The Summation Convention 138
+7.4 Local Inertial Frames 140
+7.5 Light Cones and World Lines 142
+7.6 Length, Area, Volume, and Four-Volume for Diagonal Metrics 146
+7.7 Embedding Diagrams and Wormholes 148
+7.8 Vectors in Curved Spacetime 152
+7.9 Three-Dimensional Surfaces in Four-Dimensional Spacetime 158
+Chapter 8  Geodesics 169
+8.1 The Geodesic Equation 169
+8.2 Solving the Geodesic Equation—Symmetries and Conservation Laws 175
+8.3 Null Geodesics 178
+8.4 Local Inertial Frames and Freely Falling Frames 179
+Chapter 9  The Geometry Outside a Spherical Star 186
+9.1 Schwarzschild Geometry 186
+9.2 The Gravitational Redshift 189
+9.3 Particle Orbits—Precession of the Perihelion 191
+9.4 Light Ray Orbits—The Deflection and Time Delay of Light 204
+Chapter 10  Solar System Tests of General Relativity 219
+10.1 Gravitational Redshift 219
+10.2 PPN Parameters 221
+10.3 Measurements of the PPN Parameter y 223
+10.4 Measurement of the PPN Parameter fl—Precession of Mercury's Perihelion 230
+Chapter 11  Relativistic Gravity in Action 234
+11.1 Gravitational Lensing 234
+11.2 Accretion Disks Around Compact Objects 244
+11.3 Binary Pulsars 250
+Chapter 12  Gravitational Collapse and Black Holes 255
+12.1 The Schwarzschild Black Hole 256
+12.2 Collapse to a Black Hole 262
+12.3 Kruskal–Szekeres Coordinates 269
+12.4 Nonspherical Gravitational Collapse 275
+Chapter 13  Astrophysical Black Holes 281
+13.1 Black Holes in X-Ray Binaries 282
+13.2 Black Holes in Galaxy Centers 285
+13.3 Quantum Evaporation of Black Holes—Hawking Radiation 289
+Chapter 14  A Little Rotation 296
+14.1 Rotational Dragging of Inertial Frames 296
+14.2 Gyroscopes in Curved Spacetime 297
+14.3 Geodetic Precession 298
+14.4 Spacetime Outside a Slowly Rotating Spherical Body 302
+14.5 Gyroscopes in the Spacetime of a Slowly Rotating Body 303
+14.6 Gyros and Freely Falling Frames 308
+Chapter 15  Rotating Black Holes 310
+15.1 Cosmic Censorship 310
+15.2 The Ken- Geometry 311
+15.3 The Horizon of a Rotating Black Hole 313
+15.4 Orbits in the Equatorial Plane 316
+15.5 The Ergosphere 322
+Chapter 16  Gravitational Waves 331
+16.1 A Linearized Gravitational Wave 332
+16.2 Detecting Gravitational Waves 333
+16.3 Gravitational Wave Polarization 336
+16.4 Gravitational Wave Interferometers 339
+16.5 The Energy in Gravitational Waves 342
+Chapter 17  The Universe Observed 347
+17.1 The Composition of the Universe 347
+17.2 The Expanding Universe 352
+17.3 Mapping the Universe 360
+Chapter 18  Cosmological Models 366
+18.1 Homogeneous, Isotropic Spacetimes 366
+18.2 The Cosmological Redshift 368
+18.3 Matter, Radiation, and Vacuum 372
+18.4 Evolution of the Flat FRW Models 376
+18.5 The Big Bang and Age and Size of the Universe 380
+18.6 Spatially Curved Robertson—Walker Metrics 384
+18.7 Dynamics of the Universe 387
+Chapter 19  Which Universe and Why? 400
+19.1 Surveying the Universe 402
+19.2 Explaining the Universe 410
+Chapter 20  A Little More Math 419
+20.1 Vectors 419
+20.2 Dual Vectors 421
+20.3 Tensors 427
+20.4 The Covariant Derivative 430
+20.5 Freely Falling Frames Again 440
+Chapter 21  Curvature and the Einstein Equation 445
+21.1 Tidal Gravitational Forces 445
+21.2 Equation of Geodesic Deviation 450
+21.3 Riemann Curvature 454
+21.4 The Einstein Equation in Vacuum 456
+21.5 Linearized Gravity 459
+Chapter 22  The Source of Curvature 471
+22.1 Densities 471
+22.2 Conservation 478
+22.2 Conservation of Energy-Momentum 478
+22.3 The Einstein Equation 482
+22.4 The Newtonian Limit 485
+Chapter 23  Gravitational Wave Emission 491
+23.1 The Linearized Einstein Equation with Sources 491
+23.2 Solving the Wave Equation with a Source 493
+23.3 The General Solution of Linearized Gravity 496
+23.4 Production of Weak Gravitational Waves 498
+23.5 Gravitational Radiation from Binary Stars 502
+23.6 The Quadrupole Formula for the Energy Loss in Gravitational Waves 506
+23.7 Effects of Gravitational Radiation Detected in a Binary Pulsar 508
+23.8 Strong Source Expectations 510
+Chapter 24  Relativistic Stars 515
+24.1 The Power of the Pauli Principle 516
+24.2 Relativistic Hydrostatic Equilibrium 520
+24.3 Stellar Models 523
+24.4 Matter in Its Ground State 524
+24.5 Stability 528
+24.6 Bounds on the Maximum Mass of Neutron Stars 535
+Chapter 25  Units 541
+25.1 Units in General 541
+25.2 Units Employed in this Book 542
+Chapter 26 Curvature Quantitie 545

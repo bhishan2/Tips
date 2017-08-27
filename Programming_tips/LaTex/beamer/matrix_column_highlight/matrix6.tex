@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{blkarray}
+
+\newcommand\Gmat[2]{%
+  \color{green!80!black}\mathbf{\overline{#1}_{#2}}}
+\newcommand\Bmat[2]{%
+  \color{blue!80!black}\mathbf{\overline{#1}_{#2}}}
+
+\begin{document}
+
+\[
+\bordermatrix{
+~ & \Bmat{u}{1} & \Gmat{v}{1} & \Bmat{u}{5} & \Gmat{v}{5} \cr
+\Bmat{F}{1x} & 336000 & 0 & -336000 & 0 \cr
+\Gmat{F}{1y} & 0 & 0 & 0 & 0 \cr
+\Bmat{F}{5x} & -336000 & 0 & 336000 & 0 \cr
+\Gmat{F}{5y} & 0 & 0 & 0 & 0 \cr
+}
+\]
+
+\[
+\begin{blockarray}{ccccc}
+~ & \Bmat{u}{1} & \Gmat{v}{1} & \Bmat{u}{5} & \Gmat{v}{5} \\
+\begin{block}{c[cccc]}
+\Bmat{F}{1x} & 336000 & 0 & -336000 & 0 \\
+\Gmat{F}{1y} & 0 & 0 & 0 & 0 \\
+\Bmat{F}{5x} & -336000 & 0 & 336000 & 0 \\
+\Gmat{F}{5y} & 0 & 0 & 0 & 0 \\
+\end{block}
+\end{blockarray}
+ \]
+
+\end{document}

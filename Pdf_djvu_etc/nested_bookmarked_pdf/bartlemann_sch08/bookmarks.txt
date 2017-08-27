@@ -1,0 +1,56 @@
+Chapter 1 Introduction 5
+1.1 Gravitational Light Deflection 5
+1.2 Weak Gravitational Lensing 6
+1.3 Applications of Gravitational Lensing 8
+1.4 Structure of this Review 10
+Chapter 2 Cosmological Background 12
+2.1 Friedmann-Lemaˆıtre Cosmological Models 12
+2.2 Density Perturbations 24
+2.3 Relevant Properties of Lenses and Sources 33
+2.4 Correlation Functions, Power Spectra, and their Projections 41
+Chapter 3 Gravitational Light Deflection 45
+3.1 Gravitational Lens Theory 45
+3.2 Light Propagation in Arbitrary Spacetimes 52
+Chapter 4 Principles of Weak Gravitational Lensing 58
+4.1 Introduction 58
+4.2 Galaxy Shapes and Sizes, and their Transformation 59
+4.3 Local Determination of the Distortion 61
+4.4 Magnification Effects 70
+4.5 Minimum Lens Strength for its Weak Lensing Detection 74
+4.6 Practical Consideration for Measuring Image Shapes 76
+Chapter 5 Weak Lensing by Galaxy Clusters 86
+5.1 Introduction 86
+5.2 Cluster Mass Reconstruction from Image Distortions 87
+5.3 Aperture Mass and Multipole Measures 96
+5.4 Application to Observed Clusters 101
+5.5 Outlook 106
+Chapter 6 Weak Cosmological Lensing 117
+6.1 Light Propagation; Choice of Coordinates 118
+6.2 Light Deflection 119
+6.3 Effective Convergence 122
+6.4 Effective-Convergence Power Spectrum 124
+6.5 Magnification and Shear 128
+6.6 Second-Order Statistical Measures 129
+6.7 Higher-Order Statistical Measures 144
+6.8 Cosmic Shear and Biasing 148
+6.9 Numerical Approach to Cosmic Shear, Cosmological Parameter Estimates, and Observations 151
+7.1 Introduction 156
+7.2 Expected Magnification Bias from Cosmological Density
+Perturbations 158
+7.3 Theoretical Expectations 162
+7.4 Observational Results 167
+7.5 Outlook 172
+Chapter 8 Galaxy-Galaxy Lensing 174
+8.1 Introduction 174
+8.2 The Theory of Galaxy-Galaxy Lensing 175
+8.3 Results 178
+8.4 Galaxy-Galaxy Lensing in Galaxy Clusters 183
+Chapter 9 The Impact of Weak Gravitational Light Deflection on the Microwave Background Radiation 187
+9.1 Introduction 187
+9.2 Weak Lensing of the CMB 189
+9.3 CMB Temperature Fluctuations 190
+9.4 Auto-Correlation Function of the Gravitationally Lensed CMB 190
+9.5 Deflection-Angle Variance 194
+9.6 Change of CMB Temperature Fluctuations 200
+9.7 Discussion 203
+Chapter 10 Summary and Outlook 205

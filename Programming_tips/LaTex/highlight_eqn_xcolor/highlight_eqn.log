@@ -1,0 +1,164 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/MacPorts 2017_0) (preloaded format=pdflatex 2017.8.2)  19 AUG 2017 11:12
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**highlight_eqn.tex
+(./highlight_eqn.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 46 language(s) loaded.
+(/opt/local/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/opt/local/share/texmf-texlive/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/opt/local/share/texmf-texlive/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count87
+\calc@Bcount=\count88
+\calc@Adimen=\dimen103
+\calc@Bdimen=\dimen104
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count89
+\calc@Cskip=\skip45
+) (/opt/local/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip46
+For additional information on amsmath, use the `?' option.
+(/opt/local/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+(/opt/local/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks14
+\ex@=\dimen105
+)) (/opt/local/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen106
+) (/opt/local/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count90
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count91
+\leftroot@=\count92
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count93
+\DOTSCASE@=\count94
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
+\dotsspace@=\muskip10
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks15
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks16
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks17
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) (/opt/local/share/texmf-texlive/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+(/opt/local/share/texmf-texlive/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+(/opt/local/share/texmf-texlive/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/opt/local/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count102
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+\dlf=\skip49
+(./highlight_eqn.aux)
+\openout1 = `highlight_eqn.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+(/opt/local/share/texmf-texlive/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count103
+\scratchdimen=\dimen114
+\scratchbox=\box28
+\nofMPsegments=\count104
+\nofMParguments=\count105
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count106
+\MPscratchDim=\dimen115
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
+\everyMPtoPDFconversion=\toks20
+) [1
+
+{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./highlight_eqn.
+aux) ) 
+Here is how much of TeX's memory you used:
+ 2059 strings out of 494108
+ 25062 string characters out of 6155656
+ 86979 words of memory out of 5000000
+ 5480 multiletter control sequences out of 15000+600000
+ 4094 words of font info for 16 fonts, out of 8000000 for 9000
+ 430 hyphenation exceptions out of 8191
+ 27i,14n,37p,228b,202s stack positions out of 5000i,500n,10000p,200000b,80000s
+</opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on highlight_eqn.pdf (1 page, 17762 bytes).
+PDF statistics:
+ 16 PDF objects out of 1000 (max. 8388607)
+ 10 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

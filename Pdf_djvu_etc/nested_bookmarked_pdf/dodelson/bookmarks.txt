@@ -1,0 +1,91 @@
+Chapter 0 Contents 0
+Chapter 1 The Standard Model and Beyond 1
+1.1 The Expanding Universe 1
+1.2 Hubble Diagram 7
+1.3 Big Bang Nucleosynthesis 9
+1.4 The Cosmic Microwave Background 13
+1.5 Beyond the Standard Model 14
+1.6 Summary 19
+1.7 Exercises 21
+Chapter 2 The Smooth, Expanding Universe 23
+2.1 General Relativity 23
+2.2 Distances 33
+2.3 Evolution of Energy 37
+2.4 Cosmic Inventory 40
+2.5 Summary 51
+2.6 Exercises 53
+Chapter 3 Beyond Equilibrium 58
+3.1 Boltzmann Equation for Annihilation 59
+3.2 Big Bang Nucleosynthesis 62
+3.3 Recombination 70
+3.4 Dark Matter 73
+3.5 Summary 78
+3.6 Exercise 80
+Chapter 4 The Boltzmann Equations 84
+4.1 The Boltzmann Equations for the Harmonic Oscillator 85
+4.2 The Collisionless Boltzmann Equation for Photons 87
+4.3 Collision Terms: Compton Scattering 95
+4.4 The Boltzmann Equation for Photons 100
+4.5 The Boltzmann Equation for Cold Dark Matter 102
+4.6 The Boltzmann Equation for Baryons 106
+4.7 Summary 110
+4.8 Exercise 113
+Chapter 5 Einstein Equations 117
+5.1 The Perturbed Ricci Tensor and Scalar 117
+5.2 Two Components of the Einstein Equations 121
+5.3 Tensor Perturbations 124
+5.4 The Decomposition Theorem 131
+5.5 From Gauge to Gauge 132
+5.6 Summary 135
+5.7 Exercise 136
+Chapter 6 Initial Conditions 139
+6.1 The Einstein-Boltzmann Equations at Early Times 139
+6.2 The Horizon 142
+6.3 Inflation 144
+6.4 Gravity Wave Production 155
+6.5 Scalar Perturbations 162
+6.6 Summary and Spectral Indices 170
+6.7 Exercises 175
+Chapter 7 Inhomogeneities 180
+7.1 Prelude 180
+7.2 Large Scale 189
+7.3 Small Scales 194
+7.4 Numerical Results and Fits 203
+7.5 Growth Function 205
+7.6 Beyond Cold Dark Matter 207
+7.7 Exercises 212
+Chapter 8 Anisotropies 216
+8.1 Overview 217
+8.2 Large-Scale Anisotropies 222
+8.3 Acoustic Oscillations 224
+8.4 Diffusion Damping 230
+8.5 Inhomogeneities to Anisotropies 234
+8.6 The Anisotropy Spectrum Today 243
+8.7 Cosmological Parameters 248
+8.8 Exercise 257
+Chapter 9 Probes of Inhomogeneities 261
+9.1 Angular Correlations 262
+9.2 Peculier Velocities 270
+9.3 Direct Measurements of Peculier Velocities 271
+9.4 Redshift space Distortions 275
+9.5 Galaxy Clusters 282
+9.6 Exercises 289
+Chapter 10 Weak Lensing and Polarization 292
+10.1 Gravitational Distortion of Images 293
+10.2 Geodesics and Shear 296
+10.3 Ellipticity as an Estimator of Shear 300
+10.4 Weak Lensing Power Spectrum 302
+10.5 Polarization: The Quadrupole and the Q/U Decomposition 310
+10.6 Polarization from a Single Plane Wave 313
+10.7 Boltzmann Solution 320
+10.8 Polarization Power Spectra 323
+10.9 Detecting Gravity Waves 326
+10.10 Exercises 331
+Chapter 11 Analysis 336
+11.1 The Likelihood Function 337
+11.2 Signal Covariance Matrix 344
+11.3 Estimating the Likelihood Fucntion 356
+11.4 The Fisher Matrix: Limits and Applications 368
+11.5 Mapmaking and Inversion 375
+11.6 Systematics 378
+11.7 Exercises 389

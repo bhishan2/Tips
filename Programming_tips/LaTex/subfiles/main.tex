@@ -1,0 +1,31 @@
+\documentclass{article}
+\usepackage{subfiles}
+% \usepackage[backend=biber]{biblatex}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\graphicspath{{images/}{../images/}}
+\usepackage{natbib}
+
+
+\title{Subfile Example}
+\author{Team Learn ShareLaTeX}
+\date{ }
+
+\providecommand{\main}{.}  % *Modification: define file location
+\def\biblio{\bibliographystyle{plainnat}\bibliography{\main/bib/prospectus}}
+\begin{document}
+\def\biblio{}
+
+\maketitle
+
+\section{Introduction}
+
+
+\subfile{sections/introduction}
+
+\section{Second section}
+
+\subfile{sections/section2}
+
+\end{document}

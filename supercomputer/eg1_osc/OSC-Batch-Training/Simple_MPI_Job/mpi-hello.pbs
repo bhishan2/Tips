@@ -1,0 +1,11 @@
+#PBS -N mpi-hello
+#PBS -l walltime=0:10:00
+#PBS -l nodes=4:ppn=12
+#PBS -j oe
+#PBS -m bae
+#PBS -S /bin/bash
+
+cd $PBS_O_WORKDIR
+mpicc -O2 mpi-hello.c -o mpi-hello
+mpiexec ./mpi-hello
+

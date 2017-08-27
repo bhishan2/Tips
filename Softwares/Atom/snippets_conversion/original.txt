@@ -1,0 +1,16 @@
+def notify():
+    """Using desktop notifications in macos.
+
+    ..note::
+
+      To keep the notification button until you close it chage the
+      system preferences of the notifications.
+      System Preferences > Nofitications > Script Editor > Check all and choose alert
+
+    """
+    osa = r'''osascript -e 'display notification '''
+    tm = time.ctime()
+    msg = "\" Program finished on \n {}\"".format(tm)
+    title = r'''with title "Notification"'''
+    notif = osa + msg + title + "'&"
+    subprocess.call(notif, shell=True)

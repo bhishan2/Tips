@@ -1,0 +1,169 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/MacPorts 2017_0) (preloaded format=pdflatex 2017.8.2)  19 AUG 2017 10:25
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**matrix6.tex
+(./matrix6.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 46 language(s) loaded.
+(/opt/local/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/opt/local/share/texmf-texlive/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/opt/local/share/texmf-texlive/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+(/opt/local/share/texmf-texlive/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+(/opt/local/share/texmf-texlive/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/opt/local/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/opt/local/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip43
+For additional information on amsmath, use the `?' option.
+(/opt/local/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+(/opt/local/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks14
+\ex@=\dimen103
+)) (/opt/local/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+) (/opt/local/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks15
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) (./blkarray.sty
+Package: blkarray 2015/02/27 v0.07 Block array (dpc)
+\c@BAenumi=\count100
+\BA@col=\count101
+\BA@block@cnt=\count102
+\BA@final@box=\box28
+\BA@first@box=\box29
+\BA@colsep=\dimen112
+\BA@ftn=\toks19
+\BAextrarowheight=\dimen113
+\BAextraheightafterhline=\dimen114
+\BAarrayrulewidth=\dimen115
+\BAdoublerulesep=\dimen116
+\BAfootskip=\dimen117
+\BA@dashbox=\box30
+\BA@ddashbox=\box31
+) (./matrix6.aux)
+\openout1 = `matrix6.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+(/opt/local/share/texmf-texlive/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count103
+\scratchdimen=\dimen118
+\scratchbox=\box32
+\nofMPsegments=\count104
+\nofMParguments=\count105
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count106
+\MPscratchDim=\dimen119
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
+\everyMPtoPDFconversion=\toks21
+) [1
+
+{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./matrix6.aux) )
+ 
+Here is how much of TeX's memory you used:
+ 2271 strings out of 494108
+ 27200 string characters out of 6155656
+ 92265 words of memory out of 5000000
+ 5681 multiletter control sequences out of 15000+600000
+ 7915 words of font info for 29 fonts, out of 8000000 for 9000
+ 430 hyphenation exceptions out of 8191
+ 27i,8n,35p,224b,204s stack positions out of 5000i,500n,10000p,200000b,80000s
+</opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt
+/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx7.pfb></opt/local
+/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/local/shar
+e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/local/share/texm
+f-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on matrix6.pdf (1 page, 42556 bytes).
+PDF statistics:
+ 28 PDF objects out of 1000 (max. 8388607)
+ 19 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,32 @@
+\documentclass[compress]{beamer}
+\usetheme{Warsaw}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes}
+\tikzstyle{every picture}+=[remember picture]
+\tikzstyle{na} = [baseline=-.5ex]
+
+\begin{document}
+
+\begin{frame}
+\frametitle{Using Arrows in tikz}
+  % First page is the equation without arrow
+  \begin{itemize}
+    \item<2-> Overall mean \tikz[na] \node[coordinate] (s1) {};
+    \item<1->[]{%
+    \begin{equation}
+      y_{ijk} = \tikz[baseline]{ \node[fill=blue!20,anchor=base,rounded corners=2pt]
+              (d1) {$\mu$}; }
+              + \epsilon_{ijk}
+    \end{equation}}%
+  \end{itemize}
+
+  % This part is for arrow overlay equation in next page.
+  \begin{tikzpicture}[overlay]
+  \path<2->[->] (s1) edge [bend left] (d1);
+  \end{tikzpicture}
+\end{frame}
+
+% End of Document
+\end{document}

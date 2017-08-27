@@ -1,0 +1,49 @@
+\documentclass[compress]{beamer}
+\usetheme{Warsaw}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes}
+
+\tikzstyle{every picture}+=[remember picture]
+\tikzstyle{na} = [baseline=-.5ex]
+
+\begin{document}
+
+\begin{frame}
+\frametitle{Test}
+
+
+\begin{itemize}
+\item Overall mean \tikz[na] \node[coordinate] (s1) {};
+\end{itemize}
+
+
+\begin{equation}
+y_{ijk} = \tikz[baseline]{ \node[fill=blue!20,anchor=base,rounded corners=2pt]
+  (d1) {$\mu$}; }
++ \tikz[baseline]{ \node[fill=red!20,anchor=base,rounded corners=2pt]
+  (d2) {$r_{i}$}; }
++ \tikz[baseline]{ \node[fill=green!20,anchor=base,rounded corners=2pt]
+  (d3) {$c_{j}$}; }
++ \tikz[baseline]{ \node[fill=yellow!20,anchor=base,rounded corners=2pt]
+  (d4) {$t_{k}$}; }
++ \epsilon_{ijk}
+\end{equation}
+
+\begin{itemize}
+\item Effect of row $i$ \tikz[na] \node[coordinate] (s2) {};
+\item Effect of column $j$ \tikz[na] \node[coordinate] (s3) {};
+\item Effect of treatment $k$ \tikz[na] \node[coordinate] (s4) {};
+\end{itemize}
+
+\begin{tikzpicture}[overlay]
+\path[->] (s1) edge [bend left] (d1);
+\path[->] (s2) edge [bend right] (d2);
+\path[->] (s3) edge [out=0, in=-90] (d3);
+\path[->] (s4) edge [out=0, in=-90] (d4);
+\end{tikzpicture}
+
+\end{frame}
+
+\end{document}

@@ -1,0 +1,75 @@
+%!TEX
+% Author: Bhishan Poudel
+% Date  : Aug 21, 2017 Mon
+% Topic : Presentation using beamer
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{utopia} %font utopia imported
+\usetheme{Madrid}
+\usecolortheme{default}
+%other packages
+\usepackage{amsmath,amssymb}
+\usepackage{fancybox}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=orange,filecolor=magenta,urlcolor=cyan,
+            citecolor=DarkRed, bookmarks=true }
+%% colored box
+\usepackage{tikz}
+\usetikzlibrary{calc}
+% put color to \boxed math command
+\newcommand*{\boxcolor}{orange}
+\makeatletter
+\renewcommand{\boxed}[1]{\textcolor{\boxcolor}{%
+  ikz[baseline={([yshift=-1ex]current bounding box.center)}]
+ode [rectangle, minimum
+width=1ex,rounded corners,draw] {\normalcolor\m@th$\displaystyle#1$};}}
+\makeatother
+
+
+
+%------------------------------------------------------------
+%% Title Page
+\title[Astroseminar Fall 2017] %optional
+{Title of  Presentation}
+% \subtitle{Subtitle}
+\author[Poudel, Bhishan] % (optional)
+{~B.~Poudel\inst{1} }
+
+\institute[Ohio University] % (optional)
+{\inst{1}%
+  Department of Physics and Astronomy\\
+  Ohio University
+}
+\date[Aug 21, 2017] % (optional)
+{} % We can write text here
+\logo{\includegraphics[height=1.5cm]{ou.jpeg}}
+
+
+%------------------------------------------------------------
+% Table of Contents
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Table of Contents}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+
+%------------------------------------------------------------
+%%%%%%%% Begin of Document%%%%%%%%%%%
+\begin{document}
+\frame{\titlepage}
+\begin{frame}
+\frametitle{Table of Contents}
+\tableofcontents
+\end{frame}
+\section{First section}
+\begin{frame}
+  \frametitle{Example to make text visible using item command}
+  Write text here.
+\end{frame}
+\end{document}
+    

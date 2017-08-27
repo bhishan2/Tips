@@ -1,0 +1,19 @@
+# Author : Bhishan Poudel
+# Date   : Oct 04, 2016
+
+git push problem for file larger than 50Mb
+##======================================================================
+
+
+1. First keep backup of .gitingore file, since it will be deleted soon
+
+2. first delete file history from github
+git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch .' HEAD
+
+
+3. create .ignore file and add large file ignores there
+
+4. git push origin master
+
+5. if you want to force push and lose any updates in remote
+git push --force

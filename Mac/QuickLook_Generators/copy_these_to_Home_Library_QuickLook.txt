@@ -1,0 +1,36 @@
+Author: Bhishan Poudel
+Date: July 28, 2017
+Ref: https://github.com/sindresorhus/quick-look-plugins
+
+Topic: To install additional quicklook pluings in mac
+========================================================
+
+In mac we can see quicklook of txt file if we open in quick view mode.
+But, however, we can not see the preview of rst files. To add additional
+preview download and
+
+copy the plugins to the ~/Libray/QuickLook/
+qlmanage -r
+killall Finder   # restarts the Finder
+
+
+
+Packages to install for quicklook
+==================================
+https://github.com/Nyx0uf/qlImageSize
+https://github.com/Marginal/QLVideo/releases/tag/rel-187
+
+
+Also install discount for markdown preview
+============================================
+http://www.pell.portland.or.us/~orc/Code/markdown/
+unzip to ~/Applications
+sudo -H ./configure.sh
+sudo -H make
+sudo -H make install
+
+To update to the latest version of discount run ./discount-config/update-discount.sh
+
+
+If markdown preview does not work restart finder:
+defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder

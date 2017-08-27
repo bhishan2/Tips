@@ -1,0 +1,18 @@
+Author: Bhishan Poudel
+Date: July 29, 2017
+
+Topic: Using Xcode
+====================
+Today I run compiled a xcode project using xcode for the first time.
+I compiled a QuickLook Plugin for rest format and generated a .qlgenerator
+builder.
+
+1. Go the the github downloaded plugin of rest quicklook plugin.
+2. click on .xcodeproj file (it will open file in xcode)
+3. Go to Product and build
+4. Go to "Show Project Navigator Button" just below the red closing button on
+top left.
+5. Go to Products
+6. Right click the .qlgenerator file and open in finder
+7. open ~/Library/QuickLook
+8. drag and drop that .qlgenerator file to QuickLook folder

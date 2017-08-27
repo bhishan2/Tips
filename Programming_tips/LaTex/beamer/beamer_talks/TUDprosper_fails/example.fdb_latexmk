@@ -1,0 +1,14 @@
+# Fdb version 3
+["pdflatex"] 1503288820 "example.tex" "example.pdf" "example" 1503288820
+  "/opt/local/etc/texmf/texmf.cnf" 1501684777 30503 02f161cb545b38aad8a1a79bbcb9d067 ""
+  "/opt/local/share/texmf-texlive/tex/latex/base/ifthen.sty" 1467165121 5159 a08c9bbd48fc492f15b22e458bef961f ""
+  "/opt/local/share/texmf-texlive/tex/latex/seminar/seminar.cls" 1467165160 38532 1b29cd55d22154b6c6ec6a57d27c3881 ""
+  "/opt/local/var/db/texmf/web2c/pdftex/pdflatex.fmt" 1501685161 3520381 21634a94b3ec0d6be9e5fa2137d7ebc8 ""
+  "example.aux" 1503288752 8 a94a2480d3289e625eea47cd1b285758 ""
+  "example.tex" 1503303074 1325 1337177ddb11e2daa077d521ca273b3b ""
+  "pst-ovl.sty" 1448214842 542 56520438c6e4cb285406be29832c85e7 ""
+  "pst-ovl.tex" 1462278100 2191 610c92a0099224b0735215d13690d6b6 ""
+  "tudprosper.cls" 1503303074 23961 612a1baf6e2cf4e1d3320d5b79801282 ""
+  (generated)
+  "example.pdf"
+  "example.log"

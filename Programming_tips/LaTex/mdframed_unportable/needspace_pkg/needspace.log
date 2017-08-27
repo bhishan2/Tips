@@ -1,0 +1,44 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/MacPorts 2017_0) (preloaded format=latex 2017.8.2)  19 AUG 2017 11:02
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**needspace.ins
+(./needspace.ins
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 46 language(s) loaded.
+(./needspace.tex
+
+! LaTeX Error: File `filecontents.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: filecontensts.sty
+
+! LaTeX Error: File `filecontensts.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: filecontents.sty
+(./filecontents.sty
+Package: filecontents 2011/10/08 v1.3 Create an external file from within a LaT
+eX document
+)
+
+LaTeX Warning: Writing file `./needspace.sty'.
+
+\openout15 = `needspace.sty'.
+
+
+ ) ) 
+Here is how much of TeX's memory you used:
+ 17 strings out of 494109
+ 333 string characters out of 6155682
+ 49644 words of memory out of 5000000
+ 3491 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 430 hyphenation exceptions out of 8191
+ 15i,0n,14p,169b,314s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+No pages of output.

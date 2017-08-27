@@ -1,0 +1,9 @@
+# Author: Bhishan Poudel
+# Date: Aug 16, 2017
+
+Topic: To use numeric keypad numbers in vim insert mode
+========================================================
+
+1. By default this feature is disabled. To fix this do following:
+  Terminal > Go to Default > Advanced > Unselect Allow VT100 application keypad
+  mode.

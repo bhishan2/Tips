@@ -1,0 +1,8 @@
+'.source.python':
+'read columns of file using numpy':
+    'prefix': 'xreadfile'
+    'body': 'infile = "$1"\nx = np.genfromtxt(infile, delimiter=None, usecols=(0),\\\n                  dtype=str, unpack=True)\ny = np.genfromtxt(infile, delimiter=None, usecols=(1),\\\n                  dtype=float, unpack=True)\n$0'
+
+'read columns of file using pandas':
+    'prefix': 'xreadfile3'
+    'body': 'infile = 'hello.txt'\n$0'

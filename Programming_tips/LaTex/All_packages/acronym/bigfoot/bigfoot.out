@@ -1,0 +1,12 @@
+\BOOKMARK [1][-]{section.1}{The implementation}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Startup code}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Fixes to the manyfoot package}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Dealing with footnote-specific code}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{Putting footnotes into insertions}{section.1}% 5
+\BOOKMARK [3][-]{subsubsection.1.4.1}{Dealing with Ids}{subsection.1.4}% 6
+\BOOKMARK [3][-]{subsubsection.1.4.2}{Dealing with footnote stacks}{subsection.1.4}% 7
+\BOOKMARK [3][-]{subsubsection.1.4.3}{Continuation marks}{subsection.1.4}% 8
+\BOOKMARK [3][-]{subsubsection.1.4.4}{The works}{subsection.1.4}% 9
+\BOOKMARK [2][-]{subsection.1.5}{The output routine stuff}{section.1}% 10
+\BOOKMARK [3][-]{subsubsection.1.5.1}{Main label for reconsideration}{subsection.1.5}% 11
+\BOOKMARK [1][-]{section.2}{Various driver files}{}% 12

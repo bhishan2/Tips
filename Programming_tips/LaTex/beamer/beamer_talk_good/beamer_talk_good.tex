@@ -1,0 +1,246 @@
+%!TEX
+% Author: Bhishan Poudel
+% Date: Aug 21, 2017 Mon
+% Topic: Presentation using beamer
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{utopia} %font utopia imported
+\usetheme{Madrid}
+\usecolortheme{default}
+%Tikz Package for drawing arrows etc.
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes}
+\tikzstyle{every picture}+=[remember picture]
+\tikzstyle{na} = [baseline=-.5ex]
+%other packages
+\usepackage{amsmath,amssymb}
+\usepackage{xcolor}
+\usepackage{fancybox}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=orange,filecolor=magenta,urlcolor=cyan,
+            citecolor=DarkRed, bookmarks=true }
+%\highlight[color_name]{Text or math term}
+\newcommand{\abs}[1]{\lvert#1\rvert}
+\newcommand{\Abs}[1]{\left\lvert#1\right\rvert}
+
+% \highlight[<colour>]{<stuff>}
+\newcommand{\highlight}[2][yellow]{\mathchoice
+  {\colorbox{#1}{$\displaystyle#2$}}
+  {\colorbox{#1}{$\textstyle#2$}}
+  {\colorbox{#1}{$\scriptstyle#2$}}
+  {\colorbox{#1}{$\scriptscriptstyle#2$}}}
+
+%------------------------------------------------------------
+%% Title Page
+\title[Astroseminar Fall 2017] %optional
+{Title of  Presentation}
+% \subtitle{Subtitle}
+\author[Poudel, Bhishan] % (optional)
+{~B.~Poudel\inst{1} }
+
+\institute[Ohio University] % (optional)
+{\inst{1}%
+  Department of Physics and Astronomy\\
+  Ohio University
+}
+\date[Aug 21, 2017] % (optional)
+{} % We can write text here
+\logo{\includegraphics[height=1.5cm]{ou.jpeg}}
+
+
+%------------------------------------------------------------
+% Table of Contents
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Table of Contents}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+
+%------------------------------------------------------------
+%%%%%%%% Begin of Document%%%%%%%%%%%
+\begin{document}
+\frame{\titlepage}
+\begin{frame}
+\frametitle{Table of Contents}
+\tableofcontents
+\end{frame}
+%---------------------------------------------------------
+
+
+\section{First section}
+%---------------------------------------------------------
+%Example to make text visible
+\begin{frame}
+  \frametitle{Example to make text visible using \\item command}
+    This is a text in second frame. For the sake of showing an example.
+
+  \begin{itemize}
+    \item<1-> Text visible on slide 1
+    \item<2-> Text visible on slide 2
+    \item<3> Text visible on slides 3
+    \item<4-> Text visible on slide 4
+  \end{itemize}
+\end{frame}
+
+
+%---------------------------------------------------------
+%Example of the \pause command
+\begin{frame}
+  \frametitle{Example to use pause command}
+    In this slide \pause
+
+    the text will be partially visible \pause
+
+    And finally everything will be there
+\end{frame}
+%---------------------------------------------------------
+
+
+%
+%
+%#******************************************************************************
+%#==============================================================================
+%#          Section : Section2: Highlight
+%#==============================================================================
+%#******************************************************************************
+%
+%
+\section{Section 2: Highlighted Red Green Blue boxes}\label{sec:sec2}
+\begin{frame}
+\frametitle{Sample frame title}
+  In this slide, some important text will be
+
+  \alert{highlighted} because it's important.
+    Please, don't abuse it.
+
+  \begin{block}{Remark}
+    Sample text
+  \end{block}
+
+  \begin{alertblock}{Important theorem}
+    Sample text in red box
+  \end{alertblock}
+\end{frame}
+
+\begin{frame}
+  \begin{alertblock}{Important theorem}
+    Sample text in red box
+  \end{alertblock}
+
+  \begin{examples}
+    Sample text in green box. "Examples" is fixed as block title.
+  \end{examples}
+\end{frame}
+%---------------------------------------------------------
+
+
+%---------------------------------------------------------
+%Two columns
+\begin{frame}
+\frametitle{Two-column slide}
+    \begin{columns}
+      \column{0.5\textwidth}
+      This is a text in first column.
+      $$E=mc^2$$
+
+    \begin{itemize}
+      \item First item
+      \item Second item
+    \end{itemize}
+
+    \column{0.5\textwidth}
+    This text will be in the second column
+    and on a second tought this is a nice looking
+    layout in some cases.
+  \end{columns}
+\end{frame}
+%---------------------------------------------------------
+
+
+%
+%
+%#******************************************************************************
+%#==============================================================================
+%#          Section : Section3: Highlight equation
+%#==============================================================================
+%#******************************************************************************
+%
+%
+\section{Section 3: Highlight equation using xcolor colorbox}\label{sec:sec3}
+\begin{frame}
+  \frametitle{Example to highlight equation using xcolor fancybox}
+
+
+    \begin{align}\label{eq:eq1}
+       \colorbox{blue!20}{$ x^2 + y^2$} &= 4
+    \end{align}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{highlighe eqn}
+  \begin{align}
+    \colorbox{blue!20}{$ x^2 + y^2$} &= 9
+    \end{align}
+    We can also cite another equation (\ref{eq:eq1})
+\end{frame}
+
+
+\begin{examples}
+  "Examples" is fixed as block title.
+\end{examples}
+
+
+%
+%
+%#******************************************************************************
+%#==============================================================================
+%#          Section 4 : Background hightlight equation terms
+%#==============================================================================
+%#******************************************************************************
+%
+%
+\section{Section 4: Highlight displaymath term using newcommand}\label{sec:high_eqn}
+Example of highlight:
+\begin{gather*}
+    \highlight[green]{\Abs{\frac{f(x) - f(x_0)}{x-x_0} - \ell}} < \epsilon
+\end{gather*}
+
+%
+%
+%#******************************************************************************
+%#==============================================================================
+%#          Section : Section 5: Using arrows in tikz
+%#==============================================================================
+%#******************************************************************************
+%
+%
+\section{Section 5: Tikz Arrows}\label{sec:arrow}
+\begin{frame}
+\frametitle{Using Arrows in tikz}
+  % First page is the equation without arrow
+  \begin{itemize}
+    \item<2-> Overall mean \tikz[na] \node[coordinate] (s1) {};
+    \item<1->[]{%
+    \begin{equation}
+      y_{ijk} = \tikz[baseline]{ \node[fill=blue!20,anchor=base,rounded corners=2pt]
+              (d1) {$\mu$}; }
+              + \epsilon_{ijk}
+    \end{equation}}%
+  \end{itemize}
+
+  % This part is for arrow overlay equation in next page.
+  \begin{tikzpicture}[overlay]
+  \path<2->[->] (s1) edge [bend left] (d1);
+  \end{tikzpicture}
+
+\end{frame}
+
+
+
+
+\end{document}

@@ -1,0 +1,14 @@
+********************************************************************************
+# ==============================================================================
+# Date   : Aug 18, 2017 Fri
+# Summary: Using syntax highlight in latex
+# ==============================================================================
+
+1. Using listings
+This gives black-white code, useful for submitting papers.
+
+2. minted (needs pygmentize) gives colored output
+download ctan package
+download ifplatform.sty file
+create sty file using makefile
+copy sty file to projects.

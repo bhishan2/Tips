@@ -1,0 +1,19 @@
+\frametitle{Customization}
+
+\begin{block}{Question}
+How much control over the style do I have? I want SUCH AND SUCH, but I have moral objections to THE OTHER THING.
+\end{block}
+
+\visible<2->{\begin{block}{Answer}
+If you're willing to put in the time, you can have whatever you want.
+\end{block}}
+
+\begin{itemize}
+\item<3-> Create your own
+\item<4-> Use someone else's template
+		\begin{itemize}
+		\item \verb|https://www.overleaf.com/gallery/tagged/presentation|
+		\item \verb|http://deic.uab.es/~iblanes/beamer_gallery/|
+		\item \verb|https://www.hartwork.org/beamer-theme-matrix/|
+		\end{itemize}
+\end{itemize}

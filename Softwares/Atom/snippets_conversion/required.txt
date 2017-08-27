@@ -1,0 +1,15 @@
+    'MacOS Desktop Nofitication':
+        'prefix': 'xnotify'
+        'body': '''
+        def notify():
+        \ \ \ \ """Using desktop notifications in macos.
+
+        ..note::
+        
+        \ \ To keep the notification button until you close it chage the\n
+        system preferences of the notifications.
+        $0
+        '''
+        'description': '''
+        Description.
+        '''

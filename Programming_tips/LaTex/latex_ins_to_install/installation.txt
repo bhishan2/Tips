@@ -1,0 +1,18 @@
+Author: Bhishan Poudel
+Date  : Aug 15, 2016
+
+Topic: Install Latex Tools
+=============================
+
+1. Install bibtex
+ubuntu: sudo -H apt-get install texlive-bibtex-extra
+macos: sudo -H port install texlive-bibtex-extra
+
+2. Install latex packages
+download package for CTAN
+tex hello.ins
+or latex hello.ins
+or tex hello.dtx   According to Readme.
+
+Sometimes we need to copy not only the .sty files but also
+.tex and other files to make the package work.

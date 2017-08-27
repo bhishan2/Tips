@@ -1,0 +1,12 @@
+# Fdb version 3
+["pdflatex"] 1503091690 "syntax_higlight.tex" "syntax_higlight.pdf" "syntax_higlight" 1503091690
+  "/opt/local/etc/texmf/texmf.cnf" 1501684777 30503 02f161cb545b38aad8a1a79bbcb9d067 ""
+  "/opt/local/share/texmf-texlive/tex/latex/base/article.cls" 1467165121 19821 310da678527a7dfe2a02c88af38079b7 ""
+  "/opt/local/share/texmf-texlive/tex/latex/base/size10.clo" 1467165122 8292 e897c12e1e886ce77fe26afc5d470886 ""
+  "/opt/local/var/db/texmf/web2c/pdftex/pdflatex.fmt" 1501685161 3520381 21634a94b3ec0d6be9e5fa2137d7ebc8 ""
+  "minted.sty" 0 -1 0 ""
+  "syntax_higlight.aux" 1503091690 8 a94a2480d3289e625eea47cd1b285758 ""
+  "syntax_higlight.tex" 1503091690 463 95af07030797e28d6bf15167da8b0c5b ""
+  (generated)
+  "syntax_higlight.log"
+  "syntax_higlight.pdf"

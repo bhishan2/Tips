@@ -1,0 +1,23 @@
+\documentclass{article}
+\usepackage{amsmath}
+\makeatletter
+\def\resetMathstrut@{%
+  \setbox\z@\hbox{%
+    \mathchardef\@tempa\mathcode`\[\relax
+    \def\@tempb##1"##2##3{\the\textfont"##3\char"}%
+    \expandafter\@tempb\meaning\@tempa \relax
+  }%
+  \ht\Mathstrutbox@\ht\z@ \dp\Mathstrutbox@\dp\z@}
+\makeatother
+\begingroup
+  \catcode`(\active \xdef({\left\string(}
+  \catcode`)\active \xdef){\right\string)}
+\endgroup
+\mathcode`(="8000 \mathcode`)="8000
+\begin{document}
+
+\begin{align}
+ f(x) &= (\frac{(3-\frac{1}{x})^2}{(\frac4x-1)x}-1)x^2
+\end{align}
+
+\end{document}

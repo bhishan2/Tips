@@ -1,0 +1,25 @@
+Author: Bhishan Poudel
+Date  : Aug 24, 2017 Thu
+
+Topic: Adding profile to Atom-Script
+===================================
+
+1. Lets say I have a python script a.py
+import sys
+arg = sys.argv[1]
+print(arg)
+
+2. To give the automatic argument 'hello' we create a profile
+cmd shf i   or Package > Configure Script
+
+cwd                   empty
+command               python
+command argument      empty
+program argument      hello
+environment variables empty
+
+save as example
+
+3. cmd shf k   Script run with profile
+it shows profile example
+either click it, or just type e and hit enter.

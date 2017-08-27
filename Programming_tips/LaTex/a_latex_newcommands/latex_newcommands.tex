@@ -1,0 +1,21 @@
+\documentclass{article}
+\usepackage{amsmath}% http://ctan.org/pkg/amsmath
+\usepackage{xcolor}% http://ctan.org/pkg/xcolor
+\newcommand{\abs}[1]{\lvert#1\rvert}
+\newcommand{\Abs}[1]{\left\lvert#1\right\rvert}
+\newcommand{\pfrac}[2]{\genfrac{(){)}{}{}{#1}{#2}} % Paren Frac (a/b)
+
+% \highlight[<colour>]{<stuff>}
+\newcommand{\highlight}[2][yellow]{\mathchoice
+  {\colorbox{#1}{$\displaystyle#2$}}
+  {\colorbox{#1}{$\textstyle#2$}}
+  {\colorbox{#1}{$\scriptstyle#2$}}
+  {\colorbox{#1}{$\scriptscriptstyle#2$}}}
+
+\begin{document}
+
+Example of highlight:
+\begin{alignat*}{2}
+    \highlight[green]{\Abs{\frac{f(x) - f(x_0)}{x-x_0} - \ell}} < \epsilon
+\end{alignat*}
+\end{document}

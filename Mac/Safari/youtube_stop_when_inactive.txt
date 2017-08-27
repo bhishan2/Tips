@@ -1,0 +1,21 @@
+Author: Bhishan Poudel
+Date  : Aug 26, 2017 Sat
+
+Topic: Youtube in Safari
+=============================
+
+youtube stops songs after one song if we go to next tab.
+
+solution:
+
+first open the website youtube
+Safari > Preferences > Security > selet all and click Plugin-in Settings
+
+now we see adoble flash player for flash plugin acivate or not active
+choose ON.
+
+Note: we can make On for all the websites
+
+Advanced ===> Choose Internet plug-ins Disable for Stop plugins to save power.
+
+restart safari.

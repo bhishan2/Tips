@@ -1,0 +1,48 @@
+# Author    : Bhishan Poudel
+# Date      : Jul 21, 2017 Fri
+# Ref: https://curl.haxx.se/download.html
+
+To install wakatime for Texstudio
+=================================
+
+1. First we should update the curl command on mac
+download curl to ~/Applications folder and configure make makeinstall
+
+2. Go to wakatime website and follow instructions
+https://wakatime.com/editors
+
+i.e.
+sudo -H pip install wakatime   (conda isntall fails, there is no package)
+touch ~/.wakatime.cfg
+geany ~/.wakatime.cfg
+
+(In atom cmd alt o, then type ~/.wakatime.cfg)
+
+Paste following items on the wakatime configuration file:
+
+[Settings]
+api_key = Number  (the number is from wakatime website)
+
+3. Curl and install install.py
+Note: downloading the texstudio-wakatime and installing failed.
+Use curl command.
+
+
+curl -fsSL https://raw.githubusercontent.com/wakatime/texstudio-wakatime/master/install.py | python
+
+I got error for curl:
+Traceback (most recent call last):
+  File "<stdin>", line 124, in <module>
+  File "<stdin>", line 46, in main
+  File "<stdin>", line 62, in build_macro
+TypeError: must be str, not bytes
+
+Set python2 and use curl. Then it passed.
+However, I had a macro in texstudio which was causing the problem. So I first
+deleted the macro and install wakatime plugin using curl and python2.
+
+4. Testing
+While using textstudio, you should not get wakatime plugin failed error message
+in the bottom message bar.
+
+Error: Could not start the command: wakatime --entity "/Users/poudel/Dropbox/Prospectus/prospectus/prospectus.tex" --plugin "texstudio/135686 texstudio-wakatime/1.0.0" --write --lineno 143 --cursorpos 5256

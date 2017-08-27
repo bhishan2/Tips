@@ -1,0 +1,10 @@
+********************************************************************************
+# ==============================================================================
+# Date   : Aug 18, 2017 Fri
+# Summary: Creating suffix.sty (acronym.sty needs this)
+# ==============================================================================
+
+download bigfoot CTAN package # https://www.ctan.org/pkg/suffix?lang=en
+download manyfoot.sty
+download nccfoots.sty
+make the bigfoot packge gives suffix.sty

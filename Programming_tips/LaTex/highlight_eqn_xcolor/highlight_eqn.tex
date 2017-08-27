@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage{calc}
+\usepackage{amsmath}
+\usepackage{xcolor}
+
+\newlength\dlf
+\newcommand\alignedbox[3][yellow]{
+  % #1 = color (optional, defaults to yellow)
+  % #2 = before alignment
+  % #3 = after alignment
+  &
+  \begingroup
+  \settowidth\dlf{$\displaystyle #2$}
+  \addtolength\dlf{\fboxsep+\fboxrule}
+  \hspace{-\dlf}
+  \fcolorbox{red}{#1}{$\displaystyle #2 #3$}
+  \endgroup
+}
+
+\begin{document}
+\begin{align*}
+    \alignedbox{a}{=b} &                        c  &= d \\
+                c &= d & \alignedbox[magenta!20]{i}{=k} \\
+                e &= f &                        g  &= h
+\end{align*}
+\end{document}

@@ -1,0 +1,8 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Basic Commands}{14}{0}{2}
+\beamer@subsectionintoc {2}{1}{Structure}{14}{0}{2}
+\beamer@subsectionintoc {2}{2}{Organization}{17}{0}{2}
+\beamer@subsectionintoc {2}{3}{Environments}{23}{0}{2}
+\beamer@subsectionintoc {2}{4}{Easter Egg!}{25}{0}{2}
+\beamer@sectionintoc {3}{Styles}{35}{0}{3}
+\beamer@sectionintoc {4}{More Uses}{39}{0}{4}

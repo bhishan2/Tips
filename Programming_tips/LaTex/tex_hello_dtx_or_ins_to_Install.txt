@@ -1,0 +1,8 @@
+Author: Bhishan Poudel
+Date  : Aug 15, 2016
+
+Topic: Install biblatex
+=============================
+
+ubuntu: sudo -H apt-get install texlive-bibtex-extra
+macos: sudo -H port install texlive-bibtex-extra

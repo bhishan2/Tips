@@ -1,0 +1,147 @@
+0 Contents 0
+1.0 The Standard Model and Beyond 1
+1.1 The Expanding Universe 1
+1.2 Hubble Diagram 7
+1.3 Big Bang Nucleosynthesis 9
+1.4 The Cosmic Microwave Background 13
+1.5 Beyond the Standard Model 14
+1.6 Summary 19
+1.7 Exercises 21
+2.0 The Smooth, Expanding Universe 23
+2.1 General Relativity 23
+2.1.1 The Metric 24
+2.1.2 Einstein Equations 32
+2.2 Distances 33
+2.3 Evolution of Energy 37
+2.4 Cosmic Inventory 40
+2.4.1 Photons 40
+2.4.2 Baryons 41
+2.4.3 Matter 42
+2.4.4 Neutrinos 44
+2.4.5 Dark Energy 47
+2.4.6 Epoch of Matter-Radiation Equality 50
+2.5 Summary 51
+2.6 Exercises 53
+3.0 Beyond Equilibrium 58
+3.1 Boltzmann Equation for Annihilation 59
+3.2 Big Bang Nucleosynthesis 62
+3.2.1 Neutron Abundance 65
+3.2.2 Light Element Abundances 68
+3.3 Recombination 70
+3.4 Dark Matter 73
+3.5 Summary 78
+3.6 Exercise 80
+4.0 The Boltzmann Equations 84
+4.1 The Boltzmann Equations for the Harmonic Oscillator 85
+4.2 The Collisionless Boltzmann Equation for Photons 87
+4.2.1 Zero-Order Equation 93
+4.2.2 First-Order Equation 94
+4.3 Collision Terms: Compton Scattering 95
+4.4 The Boltzmann Equation for Photons 100
+4.5 The Boltzmann Equation for Cold Dark Matter 102
+4.6 The Boltzmann Equation for Baryons 106
+4.7 Summary 110
+4.8 Exercise 113
+5.0 Einstein Equations 117
+5.1 The Perturbed Ricci Tensor and Scalar 117
+5.1.1 Christoffel Symbols 118
+5.1.2 Ricci Tensor 119
+5.2 Two Components of the Einstein Equations 121
+5.3 Tensor Perturbations 124
+5.3.1 Christoffel Symbols for Tensor Perturbations 125
+5.3.2 Ricci Tensor for Tensor Perturbations 129
+5.4 The Decomposition Theorem 131
+5.5 From Gauge to Gauge 132
+5.6 Summary 135
+5.7 Exercise 136
+6.0 Initial Conditions 139
+6.1 The Einstein-Boltzmann Equations at Early Times 139
+6.2 The Horizon 142
+6.3 Inflation 144
+6.3.1 A Solution to the Horizon Problem 146
+6.3.2 Negative Pressure 151
+6.3.3 Implementation with a Scalar Field 151
+6.4 Gravity Wave Production 155
+6.4.1 Quantizing the Harmonic Oscillator 156
+6.4.2 Tensor Perturbations 157
+6.5 Scalar Perturbations 162
+6.5.1 Scalar Field Perturbations around a Smooth Background 162
+6.5.2 Super-Horizon Perturbations 164
+6.5.3 Spatially Flat Slicing 169
+6.6 Summary and Spectral Indices 170
+6.7 Exercises 175
+7.0 Inhomogeneities 180
+7.1 Prelude 180
+7.1.1 Three Stages of Evolution 182
+7.1.2 Method 185
+7.2 Large Scale 189
+7.2.1 Super Horizon Solution 189
+7.2.2 Through Horizon Crossing 192
+7.3 Small Scales 194
+7.3.2 Horizon Crossing 195
+7.3.2 Sub-Horizon Evolution 199
+7.4 Numerical Results and Fits 203
+7.5 Growth Function 205
+7.6 Beyond Cold Dark Matter 207
+7.6.1 Baryons 208
+7.6.2 Massive Neutrinos 209
+7.6.3 Dark Energy 210
+7.7 Exercises 212
+8.0 Anisotropies 216
+8.1 Overview 217
+8.2 Large-Scale Anisotropies 222
+8.3 Acoustic Oscillations 224
+8.3.1 Tightly Coupled Limit of the Boltzmann Equations 224
+8.3.2 Tightly Coupled Solutions 227
+8.4 Diffusion Damping 230
+8.5 Inhomogeneities to Anisotropies 234
+8.5.1 Free Streaming 234
+8.5.2 The Cls 239
+8.6 The Anisotropy Spectrum Today 243
+8.6.1 Sachs-Wolfe Effect 243
+8.6.2 Small Scales 244
+8.7 Cosmological Parameters 248
+8.7.1 Curvature 249
+8.7.2 Degenerate Paramters 250
+8.7.3 Distinct Imprints 253
+8.8 Exercise 257
+9.0 Probes of Inhomogeneities 261
+9.1 Angular Correlations 262
+9.2 Peculier Velocities 270
+9.3 Direct Measurements of Peculier Velocities 271
+9.4 Redshift space Distortions 275
+9.5 Galaxy Clusters 282
+9.6 Exercises 289
+10.0 Weak Lensing and Polarization 292
+10.1 Gravitational Distortion of Images 293
+10.2 Geodesics and Shear 296
+10.3 Ellipticity as an Estimator of Shear 300
+10.4 Weak Lensing Power Spectrum 302
+10.5 Polarization: The Quadrupole and the Q/U Decomposition 310
+10.6 Polarization from a Single Plane Wave 313
+10.7 Boltzmann Solution 320
+10.8 Polarization Power Spectra 323
+10.9 Detecting Gravity Waves 326
+10.10 Exercises 331
+11.0 Analysis 336
+11.1 The Likelihood Function 337
+11.1.1 Simple Example 337
+11.1.2 CMB Likelihood 340
+11.1.3 Galaxy Surveys 343
+11.2 Signal Covariance Matrix 344
+11.2.1 CMB Window Functions 345
+11.2.2 Examples of CMB Window Functions 347
+11.2.3 Window Functions for Galaxy Surveys 350
+11.2.4 Summary 354
+11.3 Estimating the Likelihood Fucntion 356
+11.3.1 Karhunen-Loeve Techniques 356
+11.3.2 Optimal Quadratic Estimator 362
+11.4 The Fisher Matrix: Limits and Applications 368
+11.4.1 CMB 368
+11.4.2 Galaxy Surveys 370
+11.4.3 Forecasting 371
+11.5 Mapmaking and Inversion 375
+11.6 Systematics 378
+11.6.1 Foregrounds 378
+11.6.2 Mode Subtraction 384
+11.7 Exercises 389

@@ -1,0 +1,15 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{matrix}
+\begin{document}
+
+\begin{tikzpicture}
+\matrix [matrix of nodes,row sep=-\pgflinewidth,nodes={rectangle,draw,minimum width=3em}]
+{
+0   &[-\pgflinewidth]   3 &[5mm]    6 \\
+1   &                   1 &         3 \\
+2   &                   2 &         9 \\
+};
+\end{tikzpicture}
+
+\end{document}

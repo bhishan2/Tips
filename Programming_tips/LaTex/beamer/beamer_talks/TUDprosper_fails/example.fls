@@ -1,0 +1,15 @@
+PWD /Users/poudel/OneDrive/Bhishan/Tips/Programming_tips/LaTex/beamer/ beamer_talks/TUDprosper
+INPUT /opt/local/etc/texmf/texmf.cnf
+INPUT /opt/local/var/db/texmf/web2c/pdftex/pdflatex.fmt
+INPUT example.tex
+OUTPUT example.log
+INPUT tudprosper.cls
+INPUT tudprosper.cls
+INPUT /opt/local/share/texmf-texlive/tex/latex/base/ifthen.sty
+INPUT /opt/local/share/texmf-texlive/tex/latex/base/ifthen.sty
+INPUT /opt/local/share/texmf-texlive/tex/latex/seminar/seminar.cls
+INPUT /opt/local/share/texmf-texlive/tex/latex/seminar/seminar.cls
+INPUT pst-ovl.sty
+INPUT pst-ovl.sty
+INPUT pst-ovl.tex
+INPUT pst-ovl.tex

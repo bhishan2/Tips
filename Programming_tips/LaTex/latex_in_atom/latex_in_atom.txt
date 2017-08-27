@@ -1,0 +1,17 @@
+Author: Bhishan Poudel
+Date  : Aug 9, 2017
+
+Topic: Using .tex files in Atom
+================================
+
+1. Packages for latex
+language-latex  for syntax highlight and snippets
+latexer         for \cite \ref etc completions
+
+optional:
+latex           large package ctrl-alt-b build c = clean
+
+
+DO NOT install any other packages
+a. compilation fails
+b. gives error while opening atom for spell check etc.

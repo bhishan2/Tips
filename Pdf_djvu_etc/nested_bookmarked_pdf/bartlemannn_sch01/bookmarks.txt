@@ -1,0 +1,57 @@
+Chapter 1 Introduction 294
+1.1 Gravitational light deflection 294
+1.2 Weak gravitational lensing 296
+1.3 Applications of gravitational lensing 296
+1.4 Structure of this review 298
+Chapter 2  Cosmological background 298
+2.1 Friedmann Lemamtre cosmological models 299
+2.2 Density perturbations 309
+2.3 Relevant properties of lenses and sources 316
+2.4 Correlation functions, power spectra, and their projections 323
+Chapter 3  Gravitational light deflection 326
+3.1 Gravitational lens theory 326
+3.2 Light propagation in arbitrary spacetimes 332
+Chapter 4  Principles of weak gravitational lensing 336
+4.1 Introduction 336
+4.2 Galaxy shapes and sizes, and their transformation 337
+4.3 Local determination of the distortion 340
+4.4 Magnifcation effects 347
+4.5 Minimum lens strength for its weak lensing deflection 350
+4.6 Practical consideration for measuring image shapes 352
+Chapter 5  Weak lensing by galaxy clusters 360
+5.1 Introduction 360
+5.2 Cluster mass reconstruction from image distortions 361
+5.3 Aperture mass and multipole measures 369
+5.4 Application to observed clusters 373
+5.5 Outlook 378
+Chapter 6  Weak cosmological lensing 387
+6.1 Light propagation; choice of coordinates 388
+6.2 Light deflection 388
+6.3 Effective convergence 391
+6.4 Effective-convergence power spectrum 393
+6.5 Magnifcation and shear 395
+6.6 Second-order statistical measures 397
+6.7 Higher-order statistical measures 408
+6.8 Cosmic shear and biasing 412
+6.9 Numerical approach to cosmic shear, cosmological parameter estimates, and observations 414
+Chapter 7  QSO magnifcation bias and large-scale structure 419
+7.1 Introduction 419
+7.2 Expected magnifcation bias from cosmological density perturbations 420
+7.3 Theoretical expectations 424
+7.4 Observational results 428
+7.5 Magnifcation bias of galaxies 431
+7.6 Outlook 432
+Chapter 8 Galaxy galaxy lensing 433
+8.1 Introduction 433
+8.2 The theory of galaxy galaxy lensing 434
+8.3 Results 437
+8.4 Galaxy galaxy lensing in galaxy clusters 442
+Chapter 9 The impact of weak gravitational light deflection on the microwave background radiation 444
+9.1 Introduction 444
+9.2 Weak lensing of the CMB 446
+9.3 CMB temperature fluctuations 447
+9.4 Auto-correlation function of the gravitationally lensed CMB 447
+9.5 Deflection-angle variance 450
+9.6 Change of CMB temperature fluctuations 455
+9.7 Discussion 457
+Chapter 10 Summary and outlook 459

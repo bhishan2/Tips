@@ -1,0 +1,51 @@
+% $Id: example.tex,v 1.1 2003/10/19 09:32:51 vverdult Exp $
+%
+\documentclass[pdf,blueBG,slideColor]{tudprosper}
+
+%\documentclass[pdf,darkBG,slideColor]{tudprosper}  % Dark blue background 
+%\documentclass[pdf,whiteBG,slideColor]{tudprosper} % White background
+
+\title{This is the main title of your presentation}
+\author{Name of the author}
+
+% the following five commands are optional
+\subtitle{You can also add a subtitle}
+\institution{Name of the department}
+\event{Event or location}
+\date{\today}
+\DefaultTransition{Replace}
+
+\begin{document}
+\maketitle
+
+%%%%%%%%%%%%%%%%%
+
+\overlays{3}{%
+\begin{slide}{Title of the slide}
+\begin{itemstep}
+\item How to use \texttt{tudprosper}?
+\item This is just a simple example
+\item The next slide shows some equations
+\end{itemstep}
+\end{slide}}
+
+%%%%%%%%%%%%%%%%%
+
+\begin{slide}[Dissolve]{State-Space Descriptions}
+\[  \begin{array}{lll}
+    \displaystyle\frac{dx_1(t)}{dt} &=& f_1\Bigl(x_1(t),\ldots,x_n(t),u_1(t),\ldots,u_m(t),t\Bigr) \\[2ex]
+    \displaystyle\frac{dx_2(t)}{dt} &=& f_2\Bigl(x_1(t),\ldots,x_n(t),u_1(t),\ldots,u_m(t),t\Bigr) \\
+             &\vdots&                                           \\
+    \displaystyle\frac{dx_n(t)}{dt} &=& f_n\Bigl(x_1(t),\ldots,x_n(t),u_1(t),\ldots,u_m(t),t\Bigr)
+  \end{array}\]
+\end{slide}
+
+%%%%%%%%%%%%%%%%%
+
+\end{document}
+
+
+
+
+
+

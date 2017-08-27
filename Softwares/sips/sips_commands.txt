@@ -1,0 +1,11 @@
+# Author    : Bhishan Poudel
+# Date      : Oct 17, 2016
+
+Convert files using sips
+##=======================================================================
+
+sips -s format png test.jpg --out test.png
+
+
+# convert files inside folder Converted
+for i in *.jpeg; do sips -s format png $i --out Converted/$i.png;done  

@@ -1,0 +1,26 @@
+# Author    : Bhishan Poudel
+# Date      : Aug 25, 2016
+
+to delete branches
+FIRST GIT CHECKOUT ANOTHER_BRANCH
+##======================================================================
+
+1. To remove a local branch from your machine:
+
+git branch -d local_branch_name  # type git branch to see local branches.
+
+(use -D instead to force deletion without checking merged status)
+
+2 .To remove a remote branch from the server:
+
+git push origin --delete remote_branch_name # go to website to see branches
+
+
+##======================================================================
+# View just remote-tracking branches
+git branch --remotes
+git branch -r
+
+# View both strictly local as well as remote-tracking branches
+git branch --all
+git branch -a

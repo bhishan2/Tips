@@ -1,0 +1,1071 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/MacPorts 2017_0) (preloaded format=pdflatex 2017.8.2)  15 AUG 2017 22:49
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 46 language(s) loaded.
+(/opt/local/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/opt/local/share/texmf-texlive/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./biblatex.sty
+Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/opt/local/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+) (/opt/local/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+) (/opt/local/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (./etoolbox.sty
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count87
+) (/opt/local/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+) (/opt/local/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))) (./logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count88
+(./logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (/opt/local/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/opt/local/share/texmf-texlive/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (./xstring.sty (./xstring.tex
+\@xs@message=\write3
+\integerpart=\count89
+\decimalpart=\count90
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count91
+\c@listtotal=\count92
+\c@listcount=\count93
+\c@liststart=\count94
+\c@liststop=\count95
+\c@citecount=\count96
+\c@citetotal=\count97
+\c@multicitecount=\count98
+\c@multicitetotal=\count99
+\c@instcount=\count100
+\c@maxnames=\count101
+\c@minnames=\count102
+\c@maxitems=\count103
+\c@minitems=\count104
+\c@citecounter=\count105
+\c@savedcitecounter=\count106
+\c@uniquelist=\count107
+\c@uniquename=\count108
+\c@refsection=\count109
+\c@refsegment=\count110
+\c@maxextratitle=\count111
+\c@maxextratitleyear=\count112
+\c@maxextrayear=\count113
+\c@maxextraalpha=\count114
+\c@abbrvpenalty=\count115
+\c@highnamepenalty=\count116
+\c@lownamepenalty=\count117
+\c@maxparens=\count118
+\c@parenlevel=\count119
+\blx@tempcnta=\count120
+\blx@tempcntb=\count121
+\blx@tempcntc=\count122
+\blx@maxsection=\count123
+\blx@maxsegment@0=\count124
+\blx@notetype=\count125
+\blx@parenlevel@text=\count126
+\blx@parenlevel@foot=\count127
+\blx@sectionciteorder@0=\count128
+\labelnumberwidth=\skip43
+\labelalphawidth=\skip44
+\biblabelsep=\skip45
+\bibitemsep=\skip46
+\bibnamesep=\skip47
+\bibinitsep=\skip48
+\bibparsep=\skip49
+\bibhang=\skip50
+\blx@bcfin=\read1
+\blx@bcfout=\write4
+\c@mincomprange=\count129
+\c@maxcomprange=\count130
+\c@mincompwidth=\count131
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+! Missing \endcsname inserted.
+<to be read again>
+                   \blx@datamodel@constant@optiondatatypes
+l.5589 ...odel@constant@optiondatatypes\endcsname}
+
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\cslet ...>\expandafter \let \csname #1\endcsname
+                                                  #2
+l.5589 ...odel@constant@optiondatatypes\endcsname}
+
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again>
+                   \blx@datamodel@constant@optiondatatypes
+l.5589 ...odel@constant@optiondatatypes\endcsname}
+
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\cslet ...>\expandafter \let \csname #1\endcsname
+                                                  #2
+l.5589 ...odel@constant@optiondatatypes\endcsname}
+
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again>
+                   \blx@datamodel@constant@optiondatatypes
+l.5589 ...odel@constant@optiondatatypes\endcsname}
+
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\cslet ...>\expandafter \let \csname #1\endcsname
+                                                  #2
+l.5589 ...odel@constant@optiondatatypes\endcsname}
+
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again>
+                   \blx@datamodel@constant@optiondatatypes
+l.5589 ...odel@constant@optiondatatypes\endcsname}
+
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\cslet ...>\expandafter \let \csname #1\endcsname
+                                                  #2
+l.5589 ...odel@constant@optiondatatypes\endcsname}
+
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again>
+                   \blx@datamodel@constant@optiondatatypes
+l.5589 ...odel@constant@optiondatatypes\endcsname}
+
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\cslet ...>\expandafter \let \csname #1\endcsname
+                                                  #2
+l.5589 ...odel@constant@optiondatatypes\endcsname}
+
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Undefined control sequence.
+<argument> \blx@datamodel@dates
+
+l.5610 \abx@dodates
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \blx@datamodel@dates
+
+l.5711 \abx@dodates
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \blx@datetypes
+
+l.5731 \abx@dodatetypes
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \blx@datetypes
+
+l.5740 \abx@dodatetypes
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \blx@datetypes
+
+l.5749 \abx@dodatetypes
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\abx@donameparts ...@datamodel@constant@nameparts
+                                                  }
+l.5754 \abx@donameparts
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\abx@dodateparts ... \expandafter {\blx@dateparts
+                                                  }
+l.5758 \abx@dodateparts
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \blx@datetypes
+
+l.5804 \abx@dodatetypes
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \blx@datetypes
+
+l.5811 \abx@dodatetypes
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \blx@datetypes
+
+l.5836 \abx@dodatetypes
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \blx@datetypes
+
+l.5841 \abx@dodatetypes
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\abx@donameparts ...@datamodel@constant@nameparts
+                                                  }
+l.5975 \abx@donameparts
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \blx@datamodel@names
+
+l.5995 \abx@donames
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \blx@datamodel@names
+
+l.6008 \abx@donames
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\c@labelname=\count132
+\c@savedlabelname=\count133
+! Undefined control sequence.
+<argument> \blx@datamodel@lists
+
+l.6010 \abx@dolists
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\c@pageref=\count134
+\c@savedpageref=\count135
+! Undefined control sequence.
+<argument> \blx@datamodel@labelfields
+
+l.6023 \abx@dolabelfields
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \blx@datamodel@labelfields
+
+l.7096 \abx@dolabelfields
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \blx@datamodel@labelfields
+
+l.11447 \abx@dolabelfields
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package biblatex Warning: Invalid option datatype 'boolean'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+
+Package biblatex Warning: Invalid option datatype 'integer'.
+(biblatex)                Defaulting to 'boolean'.
+
+! Undefined control sequence.
+<argument> \blx@datetypes
+
+l.12659 \abx@dodatetypes
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \blx@datamodel@names
+
+l.12941 \abx@donames
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package keyval Error: useauthor undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...
+
+l.13021 ...conds=false,julian=false,labeltime=24h}
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package keyval Error: useeditor undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...
+
+l.13021 ...conds=false,julian=false,labeltime=24h}
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package keyval Error: usetranslator undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...
+
+l.13021 ...conds=false,julian=false,labeltime=24h}
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package keyval Error: origdate undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...
+
+l.13021 ...conds=false,julian=false,labeltime=24h}
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package keyval Error: eventdate undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...
+
+l.13021 ...conds=false,julian=false,labeltime=24h}
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package keyval Error: urldate undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...
+
+l.13021 ...conds=false,julian=false,labeltime=24h}
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' not found.
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' not found.
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' not found.
+
+! Package biblatex Error: Style 'numeric' not found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...
+
+l.13046 \RequireBibliographyStyle{\blx@bbxfile}
+
+The bibliography style 'numeric' could not be found.
+
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' not found.
+
+! Package biblatex Error: Style 'numeric' not found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...
+
+l.13047 \RequireCitationStyle{\blx@cbxfile}
+
+The citation style 'numeric' could not be found.
+
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' not found.
+)
+! Undefined control sequence.
+<argument> \blx@datamodel@names
+
+l.3
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \blx@datamodel@lists
+
+l.3
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \DeclareDatamodelEntrytypes undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...
+
+l.3
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \DeclareDatamodelFields undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...
+
+l.3
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \DeclareDatamodelEntryfields undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...
+
+l.3
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \DeclareDatamodelConstraints undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...
+
+l.3
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \DeclareDatamodelConstant undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...
+
+l.3
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' not found.
+
+! Package biblatex Error: Language 'english' not found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...
+
+l.4 \begin{document}
+
+The localization module for 'english' could not be found.
+
+\@quotelevel=\count136
+\@quotereset=\count137
+
+! Package biblatex Error: Option 'sorting=nty' invalid.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...
+
+l.4 \begin{document}
+
+The option you have supplied is invalid.
+See the biblatex manual for valid option keys and possible values.
+
+! Undefined control sequence.
+\abx@donameparts ...@datamodel@constant@nameparts
+                                                  }
+l.4 \begin{document}
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \blx@datamodel@dates
+
+l.4 \begin{document}
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+Package biblatex Info: No input encoding detected.
+(biblatex)             Assuming 'ascii'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'ascii'.
+! Undefined control sequence.
+<argument> \blx@datamodel@names
+
+l.4 \begin{document}
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \blx@bcf@labelnamespec
+
+l.4 \begin{document}
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \blx@bcf@labeltitlespec
+
+l.4 \begin{document}
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \blx@bcf@labeldatespec
+
+l.4 \begin{document}
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \blx@datafieldsets
+
+l.4 \begin{document}
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...ATAFIELDSETS}\blx@bcf@datafieldsets
+                                                  }
+l.4 \begin{document}
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \blx@lantem@type
+
+l.4 \begin{document}
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \blx@latem@type
+
+l.4 \begin{document}
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \blx@uniquenametemplate
+
+l.4 \begin{document}
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \blx@datamodel@entrytypes
+
+l.4 \begin{document}
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...ment {DATA MODEL}\blx@xml@datamodel
+                                                  {\blx@xml@datamodel@consta...
+l.4 \begin{document}
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...model {\blx@xml@datamodel@constants
+                                                  {\blx@bcf@datamodel@consta...
+l.4 \begin{document}
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...tants {\blx@bcf@datamodel@constants
+                                                  }\blx@xml@datamodel@entryt...
+l.4 \begin{document}
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...ants }\blx@xml@datamodel@entrytypes
+                                                  {\blx@bcf@datamodel@entryt...
+l.4 \begin{document}
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...ypes {\blx@bcf@datamodel@entrytypes
+                                                  }\blx@xml@datamodel@fields...
+l.4 \begin{document}
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...trytypes }\blx@xml@datamodel@fields
+                                                  {\blx@bcf@datamodel@fields...
+l.4 \begin{document}
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...l@fields {\blx@bcf@datamodel@fields
+                                                  }\blx@bcf@datamodel@entryf...
+l.4 \begin{document}
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...lds }\blx@bcf@datamodel@entryfields
+                                                  \blx@bcf@datamodel@constra...
+l.4 \begin{document}
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...elds \blx@bcf@datamodel@constraints
+                                                  }}
+l.4 \begin{document}
+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\openout4 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' not found.
+No file main.bbl.
+Package biblatex Info: Reference section=0 on input line 4.
+Package biblatex Info: Reference segment=0 on input line 4.
+[1
+
+{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ )
+Here is how much of TeX's memory you used:
+ 4725 strings out of 494108
+ 78932 string characters out of 6155656
+ 217017 words of memory out of 5000000
+ 8127 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 430 hyphenation exceptions out of 8191
+ 35i,4n,28p,793b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
+</opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on main.pdf (1 page, 13975 bytes).
+PDF statistics:
+ 12 PDF objects out of 1000 (max. 8388607)
+ 7 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)

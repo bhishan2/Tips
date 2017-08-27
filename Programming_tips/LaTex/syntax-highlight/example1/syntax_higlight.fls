@@ -1,0 +1,9 @@
+PWD /Users/poudel/OneDrive/Bhishan/Tips/Programming_tips/LaTex/syntax-highlight/example1
+INPUT /opt/local/etc/texmf/texmf.cnf
+INPUT /opt/local/var/db/texmf/web2c/pdftex/pdflatex.fmt
+INPUT syntax_higlight.tex
+OUTPUT syntax_higlight.log
+INPUT /opt/local/share/texmf-texlive/tex/latex/base/article.cls
+INPUT /opt/local/share/texmf-texlive/tex/latex/base/article.cls
+INPUT /opt/local/share/texmf-texlive/tex/latex/base/size10.clo
+INPUT /opt/local/share/texmf-texlive/tex/latex/base/size10.clo

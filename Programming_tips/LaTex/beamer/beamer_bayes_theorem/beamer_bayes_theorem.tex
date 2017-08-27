@@ -1,0 +1,50 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+\usepackage{tikz}
+
+\newcommand\tikzmark[1]{
+  \tikz[remember picture,overlay] \coordinate (#1);
+}
+
+\begin{document}
+
+\begin{frame}
+\begin{exampleblock}{Baye's theorem}
+\[
+\tikzmark{ptd}p(\theta\, |\, D) = \frac{\tikzmark{pdt}p(D\,|\,\theta) p(\theta)\tikzmark{pt}}{\tikzmark{pd}p(D)}
+\]
+\begin{tikzpicture}[
+  remember picture,
+  overlay,
+  expl/.style={draw=orange,fill=orange!30,rounded corners,text width=3cm},
+  arrow/.style={red!80!black,ultra thick,->,>=latex}
+]
+\node[expl]
+  (ptdex)
+  at (2,-2cm)
+  {Some explanation};
+\node[expl]
+  (pdtex)
+  at (4,3.5cm)
+  {Some other explanation; this one is a little longer};
+\node[expl]
+  (pdex)
+  at (9,-3cm)
+  {Some other explanation};
+\node[expl]
+  (ptex)
+  at (8,3.5cm)
+  {Some other explanation; this one is a little longer};
+\draw[arrow]
+  (ptdex) to[out=100,in=180] ([yshift=0.5ex]{ptd});
+\draw[arrow]
+  (pdtex.west) to[out=180,in=180] ([yshift=0.5ex]{pdt});
+\draw[arrow]
+  (pdex.north) to[out=90,in=180] ([yshift=0.5ex]{pd});
+\draw[arrow]
+  (ptex.east) to[out=0,in=0] ([yshift=0.5ex]{pt});
+\end{tikzpicture}
+\end{exampleblock}
+\end{frame}
+
+\end{document}

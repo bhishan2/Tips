@@ -1,0 +1,11 @@
+Author: Bhishan Poudel
+Date  : Aug 10, 2017
+
+Topic: Regex replace in atom
+=============================
+1. e.g.
+1 Hello World 5  ==> Chapter 1 Hello World 5
+
+(^\d+)\ (\D*)
+
+Chapter $1 $2

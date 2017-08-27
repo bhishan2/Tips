@@ -1,0 +1,46 @@
+\documentclass{beamer}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usetikzlibrary{arrows,shapes}
+
+\begin{document}
+\tikzstyle{every picture}+=[remember picture]
+\everymath{\displaystyle}
+
+\begin{frame}
+\tikzstyle{na} = [baseline=-.5ex]
+
+\begin{itemize}[<+-| alert@+>]
+    \item Class Prior Probability
+        \tikz[na]\node [coordinate] (nCPP) {};
+    \item Likelihood
+        \tikz[na]\node [coordinate] (nL) {};
+\end{itemize}
+
+\begin{equation*}
+\frac{
+\tikz[baseline]{\node[fill=blue!20,anchor=base] (tL) {$p(D|\theta)$};}
+\tikz[baseline]{\node[fill=red!20,anchor=base] (tCPP) {$p(\theta)$};}
+}
+{
+\tikz[baseline]{\node[fill=green!20,anchor=base] (tPPP) {$p(D)$};}
+}
+=
+\tikz[baseline]{\node[fill=yellow!20,anchor=base] (tPP) {$p(\theta | D)$};}
+\end{equation*}
+\begin{itemize}[<+-| alert@+>]
+    \item Predictor Prior Probability
+        \tikz[na]\node [coordinate] (nPPP) {};
+    \item Posterior probability
+        \tikz[na] \node[coordinate] (nPP) {};
+\end{itemize}
+
+\begin{tikzpicture}[overlay]
+        \path[->]<1-> (nCPP) edge [bend left] (tCPP);
+        \path[->]<2-> (nL) edge [bend left] (tL);
+        \path[->]<3-> (nPPP) edge [out=0, in=0] (tPPP);
+        \path[->]<4-> (nPP) edge [out=0, in=-90] (tPP);
+\end{tikzpicture}
+
+\end{frame}
+\end{document}

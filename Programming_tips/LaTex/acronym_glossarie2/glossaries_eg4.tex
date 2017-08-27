@@ -1,0 +1,31 @@
+\documentclass{article}
+\usepackage[counter=equation]{glossaries}
+
+\newglossarystyle{mylong3col}{%
+  \setglossarystyle{long3colheader}%
+  \renewcommand\entryname{Symbol}
+  \renewcommand{\pagelistname}{Equation Number}
+  \renewenvironment{theglossary}%
+    {\begin{longtable}[l]{@{}lp{0.5\hsize}p{0.3\hsize}}}%
+    {\end{longtable}}%
+}
+
+\numberwithin{equation}{section}
+
+\newglossaryentry{hate}{name=\ensuremath{x}, description={$x$ is a variable, just kidding}, sort=x}
+\makeglossaries
+
+\begin{document}
+
+\section{Test}
+\begin{equation}
+ \gls{hate} = \frac{2}{0}
+\end{equation}
+\newpage
+
+
+\section{Another section}\label{sec:sec2}
+\Gls{hate} is a variable.
+
+\printglossary[style=mylong3col,type=main]
+\end{document}

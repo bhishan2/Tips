@@ -1,0 +1,25 @@
+Date: Aug 14, 2017
+Author: Bhihan Poudel
+Ref: https://github.com/hunspell/hunspell
+Ref: https://sourceforge.net/projects/hunspell/files/Spelling%20dictionaries/en_US/
+
+Ref: https://sourceforge.net/projects/hunspell/files/Hunspell/Documentation/
+
+Topic: Install and Use hunspell on mac
+========================================
+1. sudo -H port install hunspell
+2. hunspell -D   gives /opt/local/share/hunspell  as the path it looks for *.aff
+and *.dic files.
+3. sudo -H mkdir -p /opt/local/share/hunspell
+4. Download dictionary files from website
+   https://sourceforge.net/projects/hunspell/files/Spelling%20dictionaries/en_US/
+   unzip and copy .dic and .aff files (not the folder) to
+   /opt/local/share/hunspell/
+5. Usage:
+    hunspell -h
+    hunspell -d en_US text.txt
+    hunspell -l text.txt
+
+cat test.txt | hunspell -i utf-8 | grep -v \* | uniq
+cat test.txt | hunspell -l -i utf-8
+echo somee words ar good some badd | hunspell

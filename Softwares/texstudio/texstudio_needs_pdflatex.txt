@@ -1,0 +1,10 @@
+# Author: Bhishan Poudel
+# Date: Aug 2, 2017
+
+Topic: To install and use texstudio on new mac sierra
+======================================================
+1. Install pdflatex package first
+ which pdflatex ( I got no any locations)
+
+ 2. sudo port install texlive texlive-latex-extra
+

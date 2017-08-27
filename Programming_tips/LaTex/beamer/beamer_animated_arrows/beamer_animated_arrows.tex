@@ -1,0 +1,31 @@
+\documentclass[compress]{beamer}
+\usetheme{Warsaw}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes}
+
+\tikzstyle{every picture}+=[remember picture]
+\tikzstyle{na} = [baseline=-.5ex]
+
+\begin{document}
+
+\begin{frame}
+\frametitle{Test}
+  \begin{itemize}
+    \item<1->[]{%
+    \begin{equation}
+      y_{ijk} = \tikz[baseline]{ \node[fill=red!20,anchor=base,rounded corners=2pt]
+                (d1) {$r_{i}$}; } + \epsilon_{ijk}
+    \end{equation}}%
+
+    \item<2-> Effect of row $i$ \tikz[na] \node[coordinate] (s1) {};
+  \end{itemize}
+
+
+  \begin{tikzpicture}[overlay]
+    \path<2->[->] (s1) edge [bend right] (d1);
+  \end{tikzpicture}
+\end{frame}
+
+\end{document}

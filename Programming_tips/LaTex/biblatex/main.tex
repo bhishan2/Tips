@@ -1,0 +1,9 @@
+% Run twice
+\documentclass{article}
+% \usepackage[backend=bibtex]{biblatex} % Both backend work
+\usepackage[backend=biber,style=authoryear]{biblatex}
+\addbibresource{database.bib}
+\begin{document}
+According to \cite{foo1999} blah blah.
+\printbibliography
+\end{document}

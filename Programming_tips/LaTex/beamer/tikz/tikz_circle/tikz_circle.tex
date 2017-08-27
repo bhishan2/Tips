@@ -1,0 +1,18 @@
+\documentclass{minimal}
+
+\usepackage{tikz}
+\usetikzlibrary{backgrounds}
+
+\begin{document}
+\begin{tikzpicture}[framed]
+\draw (0,0) circle (2);
+\draw (0,0) rectangle (3,2);
+\end{tikzpicture}
+
+\bigskip
+
+\begin{tikzpicture}[framed,background rectangle/.style={double,ultra thick,draw=red, top color=blue, rounded corners}]
+\draw (0,0) circle (2);
+\draw (0,0) rectangle (3,2);
+\end{tikzpicture}
+\end{document}

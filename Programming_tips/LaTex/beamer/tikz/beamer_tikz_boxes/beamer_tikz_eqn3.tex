@@ -1,0 +1,24 @@
+\documentclass[10pt]{article}
+
+\usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+% put color to \boxed math command
+\newcommand*{\boxcolor}{orange}
+\makeatletter
+\renewcommand{\boxed}[1]{\textcolor{\boxcolor}{%
+\tikz[baseline={([yshift=-1ex]current bounding box.center)}] \node [rectangle, minimum width=1ex,rounded corners,draw] {\normalcolor\m@th$\displaystyle#1$};}}
+ \makeatother
+
+\begin{document}
+
+\begin{equation}
+f(x)=\boxed{ax^2+bx+c}
+\end{equation}
+
+\begin{equation}
+x_{1,2}=\boxed{\frac{-b\pm \sqrt{b^2-4ac}}{2a}}
+\end{equation}
+
+\end{document}

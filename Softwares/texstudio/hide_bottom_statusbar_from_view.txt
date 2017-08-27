@@ -1,0 +1,10 @@
+Author: Bhishan Poudel
+Date: Aug 9, 2017
+
+To hide bottom statusbar in texstudio
+=====================================
+
+When we compile and view tex files the bottom statusbar pops up all the
+time. To turn it off, 
+View > Show > uncheck statusbar Message/Logfile Side Panel 
+(uncheck all)

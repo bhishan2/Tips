@@ -1,0 +1,1206 @@
+  #-----------------------------------------------------------------------------
+  # Greek
+  'alpha':
+    'prefix': 'a'
+    'body': '\\\\alpha'
+
+  'beta':
+    'prefix': 'b'
+    'body': '\\\\beta'
+
+  'gamma':
+    'prefix': 'g'
+    'body': '\\\\gamma'
+
+  'delta':
+    'prefix': 'd'
+    'body': '\\\\delta'
+
+  'epsilon':
+    'prefix': 'e'
+    'body': '\\\\epsilon'
+
+  'zeta':
+    'prefix': 'z'
+    'body': '\\\\zeta'
+
+  'eta':
+    'prefix': 'h'
+    'body': '\\\\eta'
+
+  'theta':
+    'prefix': 'q'
+    'body': '\\\\theta'
+
+  'iota':
+    'prefix': 'i'
+    'body': '\\\\iota'
+
+  'kappa':
+    'prefix': 'k'
+    'body': '\\\\kappa'
+
+  'lambda':
+    'prefix': 'l'
+    'body': '\\\\lambda'
+
+  'mu':
+    'prefix': 'm'
+    'body': '\\\\mu'
+
+  'nu':
+    'prefix': 'n'
+    'body': '\\\\nu'
+
+  'xi':
+    'prefix': 'x'
+    'body': '\\\\xi'
+
+  'omicron':
+    'prefix': 'o'
+    'body': '\\\\omicron'
+
+  'pi':
+    'prefix': 'p'
+    'body': '\\\\pi'
+
+  'rho':
+    'prefix': 'r'
+    'body': '\\\\rho'
+
+  'sigma':
+    'prefix': 's'
+    'body': '\\\\sigma'
+
+  'tau':
+    'prefix': 't'
+    'body': '\\\\tau'
+
+  'upsilon':
+    'prefix': 'u'
+    'body': '\\\\upsilon'
+
+  'phi':
+    'prefix': 'f'
+    'body': '\\\\phi'
+
+  'chi':
+    'prefix': 'c'
+    'body': '\\\\chi'
+
+  'psi':
+    'prefix': 'y'
+    'body': '\\\\psi'
+
+  'omega':
+    'prefix': 'w'
+    'body': '\\\\omega'
+
+  'Gamma':
+    'prefix': 'G'
+    'body': '\\\\Gamma'
+
+  'Delta':
+    'prefix': 'D'
+    'body': '\\\\Delta'
+
+  'Theta':
+    'prefix': 'Q'
+    'body': '\\\\Theta'
+
+  'Lambda':
+    'prefix': 'L'
+    'body': '\\\\Lambda'
+
+  'Xi':
+    'prefix': 'X'
+    'body': '\\\\Xi'
+
+  'Pi':
+    'prefix': 'P'
+    'body': '\\\\Pi'
+
+  'Sigma':
+    'prefix': 'S'
+    'body': '\\\\Sigma'
+
+  'Phi':
+    'prefix': 'F'
+    'body': '\\\\Phi'
+
+  'Psi':
+    'prefix': 'Y'
+    'body': '\\\\Psi'
+
+  #-----------------------------------------------------------------------------
+  # Angle Alpha
+  'Angle alpha':
+    'prefix': 'aay'
+    'body': '\\\\langle \\\\alpha \\\\rangle\ $0'
+
+  'Angle beta':
+    'prefix': 'aby'
+    'body': '\\\\langle \\\\beta \\\\rangle\ $0'
+
+  'Angle gamma':
+    'prefix': 'agy'
+    'body': '\\\\langle \\\\gamma \\\\rangle\ $0'
+
+  'Angle delta':
+    'prefix': 'ady'
+    'body': '\\\\langle \\\\delta \\\\rangle\ $0'
+
+  'Angle epsilon':
+    'prefix': 'aey'
+    'body': '\\\\langle \\\\epsilon \\\\rangle\ $0'
+
+  'Angle zeta':
+    'prefix': 'azy'
+    'body': '\\\\langle \\\\zeta \\\\rangle\ $0'
+
+  'Angle eta':
+    'prefix': 'ahy'
+    'body': '\\\\langle \\\\eta \\\\rangle\ $0'
+
+  'Angle theta':
+    'prefix': 'aqy'
+    'body': '\\\\langle \\\\theta \\\\rangle\ $0'
+
+  'Angle iota':
+    'prefix': 'aiy'
+    'body': '\\\\langle \\\\iota \\\\rangle\ $0'
+
+  'Angle kappa':
+    'prefix': 'aky'
+    'body': '\\\\langle \\\\kappa \\\\rangle\ $0'
+
+  'Angle lambda':
+    'prefix': 'aly'
+    'body': '\\\\langle \\\\lambda \\\\rangle\ $0'
+
+  'Angle mu':
+    'prefix': 'amy'
+    'body': '\\\\langle \\\\mu \\\\rangle\ $0'
+
+  'Angle nu':
+    'prefix': 'any'
+    'body': '\\\\langle \\\\nu \\\\rangle\ $0'
+
+  'Angle xi':
+    'prefix': 'axy'
+    'body': '\\\\langle \\\\xi \\\\rangle\ $0'
+
+  'Angle omicron':
+    'prefix': 'aoy'
+    'body': '\\\\langle \\\\omicron \\\\rangle\ $0'
+
+  'Angle pi':
+    'prefix': 'apy'
+    'body': '\\\\langle \\\\pi \\\\rangle\ $0'
+
+  'Angle rho':
+    'prefix': 'ary'
+    'body': '\\\\langle \\\\rho \\\\rangle\ $0'
+
+  'Angle sigma':
+    'prefix': 'asy'
+    'body': '\\\\langle \\\\sigma \\\\rangle\ $0'
+
+  'Angle tau':
+    'prefix': 'aty'
+    'body': '\\\\langle \\\\tau \\\\rangle\ $0'
+
+  'Angle upsilon':
+    'prefix': 'auy'
+    'body': '\\\\langle \\\\upsilon \\\\rangle\ $0'
+
+  'Angle phi':
+    'prefix': 'afy'
+    'body': '\\\\langle \\\\phi \\\\rangle\ $0'
+
+  'Angle chi':
+    'prefix': 'acy'
+    'body': '\\\\langle \\\\chi \\\\rangle\ $0'
+
+  'Angle psi':
+    'prefix': 'ayy'
+    'body': '\\\\langle \\\\psi \\\\rangle\ $0'
+
+  'Angle omega':
+    'prefix': 'awy'
+    'body': '\\\\langle \\\\omega \\\\rangle\ $0'
+
+  'Angle Gamma':
+    'prefix': 'aGy'
+    'body': '\\\\langle \\\\Gamma \\\\rangle\ $0'
+
+  'Angle Delta':
+    'prefix': 'aDy'
+    'body': '\\\\langle \\\\Delta \\\\rangle\ $0'
+
+  'Angle Theta':
+    'prefix': 'aQy'
+    'body': '\\\\langle \\\\Theta \\\\rangle\ $0'
+
+  'Angle Lambda':
+    'prefix': 'aLy'
+    'body': '\\\\langle \\\\Lambda \\\\rangle\ $0'
+
+  'Angle Xi':
+    'prefix': 'aXy'
+    'body': '\\\\langle \\\\Xi \\\\rangle\ $0'
+
+  'Angle Pi':
+    'prefix': 'aPy'
+    'body': '\\\\langle \\\\Pi \\\\rangle\ $0'
+
+  'Angle Sigma':
+    'prefix': 'aSy'
+    'body': '\\\\langle \\\\Sigma \\\\rangle\ $0'
+
+  'Angle Phi':
+    'prefix': 'aFy'
+    'body': '\\\\langle \\\\Phi \\\\rangle\ $0'
+
+  'Angle Psi':
+    'prefix': 'aYy'
+    'body': '\\\\langle \\\\Psi \\\\rangle\ $0'
+
+  #-----------------------------------------------------------------------------
+  # Script Alpha
+  'Script alpha':
+    'prefix': 'say'
+    'body': '\\\\mathscr{\\\\alpha}\ $0'
+
+  'Script beta':
+    'prefix': 'sby'
+    'body': '\\\\mathscr{\\\\beta}\ $0'
+
+  'Script gamma':
+    'prefix': 'sgy'
+    'body': '\\\\mathscr{\\\\gamma}\ $0'
+
+  'Script delta':
+    'prefix': 'sdy'
+    'body': '\\\\mathscr{\\\\delta}\ $0'
+
+  'Script epsilon':
+    'prefix': 'sey'
+    'body': '\\\\mathscr{\\\\epsilon}\ $0'
+
+  'Script zeta':
+    'prefix': 'szy'
+    'body': '\\\\mathscr{\\\\zeta}\ $0'
+
+  'Script eta':
+    'prefix': 'shy'
+    'body': '\\\\mathscr{\\\\eta}\ $0'
+
+  'Script theta':
+    'prefix': 'sqy'
+    'body': '\\\\mathscr{\\\\theta}\ $0'
+
+  'Script iota':
+    'prefix': 'siy'
+    'body': '\\\\mathscr{\\\\iota}\ $0'
+
+  'Script kappa':
+    'prefix': 'sky'
+    'body': '\\\\mathscr{\\\\kappa}\ $0'
+
+  'Script lambda':
+    'prefix': 'sly'
+    'body': '\\\\mathscr{\\\\lambda}\ $0'
+
+  'Script mu':
+    'prefix': 'smy'
+    'body': '\\\\mathscr{\\\\mu}\ $0'
+
+  'Script nu':
+    'prefix': 'sny'
+    'body': '\\\\mathscr{\\\\nu}\ $0'
+
+  'Script xi':
+    'prefix': 'sxy'
+    'body': '\\\\mathscr{\\\\xi}\ $0'
+
+  'Script omicron':
+    'prefix': 'soy'
+    'body': '\\\\mathscr{\\\\omicron}\ $0'
+
+  'Script pi':
+    'prefix': 'spy'
+    'body': '\\\\mathscr{\\\\pi}\ $0'
+
+  'Script rho':
+    'prefix': 'sry'
+    'body': '\\\\mathscr{\\\\rho}\ $0'
+
+  'Script sigma':
+    'prefix': 'ssy'
+    'body': '\\\\mathscr{\\\\sigma}\ $0'
+
+  'Script tau':
+    'prefix': 'sty'
+    'body': '\\\\mathscr{\\\\tau}\ $0'
+
+  'Script upsilon':
+    'prefix': 'suy'
+    'body': '\\\\mathscr{\\\\upsilon}\ $0'
+
+  'Script phi':
+    'prefix': 'sfy'
+    'body': '\\\\mathscr{\\\\phi}\ $0'
+
+  'Script chi':
+    'prefix': 'scy'
+    'body': '\\\\mathscr{\\\\chi}\ $0'
+
+  'Script psi':
+    'prefix': 'syy'
+    'body': '\\\\mathscr{\\\\psi}\ $0'
+
+  'Script omega':
+    'prefix': 'swy'
+    'body': '\\\\mathscr{\\\\omega}\ $0'
+
+  'Script Gamma':
+    'prefix': 'sGy'
+    'body': '\\\\mathscr{\\\\Gamma}\ $0'
+
+  'Script Delta':
+    'prefix': 'sDy'
+    'body': '\\\\mathscr{\\\\Delta}\ $0'
+
+  'Script Theta':
+    'prefix': 'sQy'
+    'body': '\\\\mathscr{\\\\Theta}\ $0'
+
+  'Script Lambda':
+    'prefix': 'sLy'
+    'body': '\\\\mathscr{\\\\Lambda}\ $0'
+
+  'Script Xi':
+    'prefix': 'sXy'
+    'body': '\\\\mathscr{\\\\Xi}\ $0'
+
+  'Script Pi':
+    'prefix': 'sPy'
+    'body': '\\\\mathscr{\\\\Pi}\ $0'
+
+  'Script Sigma':
+    'prefix': 'sSy'
+    'body': '\\\\mathscr{\\\\Sigma}\ $0'
+
+  'Script Phi':
+    'prefix': 'sFy'
+    'body': '\\\\mathscr{\\\\Phi}\ $0'
+
+  'Script Psi':
+    'prefix': 'sYy'
+    'body': '\\\\mathscr{\\\\Psi}\ $0'
+
+  #-----------------------------------------------------------------------------
+  # Partial Alpha
+  'Partial alpha':
+    'prefix': 'pay'
+    'body': '\\\\partial\\\\alpha\ $0'
+
+  'Partial beta':
+    'prefix': 'pby'
+    'body': '\\\\partial\\\\beta\ $0'
+
+  'Partial gamma':
+    'prefix': 'pgy'
+    'body': '\\\\partial\\\\gamma\ $0'
+
+  'Partial delta':
+    'prefix': 'pdy'
+    'body': '\\\\partial\\\\delta\ $0'
+
+  'Partial epsilon':
+    'prefix': 'pey'
+    'body': '\\\\partial\\\\epsilon\ $0'
+
+  'Partial zeta':
+    'prefix': 'pzy'
+    'body': '\\\\partial\\\\zeta\ $0'
+
+  'Partial eta':
+    'prefix': 'phy'
+    'body': '\\\\partial\\\\eta\ $0'
+
+  'Partial theta':
+    'prefix': 'pqy'
+    'body': '\\\\partial\\\\theta\ $0'
+
+  'Partial iota':
+    'prefix': 'piy'
+    'body': '\\\\partial\\\\iota\ $0'
+
+  'Partial kappa':
+    'prefix': 'pky'
+    'body': '\\\\partial\\\\kappa\ $0'
+
+  'Partial lambda':
+    'prefix': 'ply'
+    'body': '\\\\partial\\\\lambda\ $0'
+
+  'Partial mu':
+    'prefix': 'pmy'
+    'body': '\\\\partial\\\\mu\ $0'
+
+  'Partial nu':
+    'prefix': 'pny'
+    'body': '\\\\partial\\\\nu\ $0'
+
+  'Partial xi':
+    'prefix': 'pxy'
+    'body': '\\\\partial\\\\xi\ $0'
+
+  'Partial omicron':
+    'prefix': 'poy'
+    'body': '\\\\partial\\\\omicron\ $0'
+
+  'Partial pi':
+    'prefix': 'ppy'
+    'body': '\\\\partial\\\\pi\ $0'
+
+  'Partial rho':
+    'prefix': 'pry'
+    'body': '\\\\partial\\\\rho\ $0'
+
+  'Partial sigma':
+    'prefix': 'psy'
+    'body': '\\\\partial\\\\sigma\ $0'
+
+  'Partial tau':
+    'prefix': 'pty'
+    'body': '\\\\partial\\\\tau\ $0'
+
+  'Partial upsilon':
+    'prefix': 'puy'
+    'body': '\\\\partial\\\\upsilon\ $0'
+
+  'Partial phi':
+    'prefix': 'pfy'
+    'body': '\\\\partial\\\\phi\ $0'
+
+  'Partial chi':
+    'prefix': 'pcy'
+    'body': '\\\\partial\\\\chi\ $0'
+
+  'Partial psi':
+    'prefix': 'pyy'
+    'body': '\\\\partial\\\\psi\ $0'
+
+  'Partial omega':
+    'prefix': 'pwy'
+    'body': '\\\\partial\\\\omega\ $0'
+
+  'Partial Gamma':
+    'prefix': 'pGy'
+    'body': '\\\\partial\\\\Gamma\ $0'
+
+  'Partial Delta':
+    'prefix': 'pDy'
+    'body': '\\\\partial\\\\Delta\ $0'
+
+  'Partial Theta':
+    'prefix': 'pQy'
+    'body': '\\\\partial\\\\Theta\ $0'
+
+  'Partial Lambda':
+    'prefix': 'pLy'
+    'body': '\\\\partial\\\\Lambda\ $0'
+
+  'Partial Xi':
+    'prefix': 'pXy'
+    'body': '\\\\partial\\\\Xi\ $0'
+
+  'Partial Pi':
+    'prefix': 'pPy'
+    'body': '\\\\partial\\\\Pi\ $0'
+
+  'Partial Sigma':
+    'prefix': 'pSy'
+    'body': '\\\\partial\\\\Sigma\ $0'
+
+  'Partial Phi':
+    'prefix': 'pFy'
+    'body': '\\\\partial\\\\Phi\ $0'
+
+  'Partial Psi':
+    'prefix': 'pYy'
+    'body': '\\\\partial\\\\Psi\ $0'
+
+  #-----------------------------------------------------------------------------
+  # Angle Alpha Bold
+  'Angle alpha Bold':
+    'prefix': 'aaby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\alpha}\\\\rangle\ $0'
+
+  'Angle beta Bold':
+    'prefix': 'abby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\beta}\\\\rangle\ $0'
+
+  'Angle gamma Bold':
+    'prefix': 'agby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\gamma}\\\\rangle\ $0'
+
+  'Angle delta Bold':
+    'prefix': 'adby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\delta}\\\\rangle\ $0'
+
+  'Angle epsilon Bold':
+    'prefix': 'aeby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\epsilon}\\\\rangle\ $0'
+
+  'Angle zeta Bold':
+    'prefix': 'azby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\zeta}\\\\rangle\ $0'
+
+  'Angle eta Bold':
+    'prefix': 'ahby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\eta}\\\\rangle\ $0'
+
+  'Angle theta Bold':
+    'prefix': 'aqby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\theta}\\\\rangle\ $0'
+
+  'Angle iota Bold':
+    'prefix': 'aiby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\iota}\\\\rangle\ $0'
+
+  'Angle kappa Bold':
+    'prefix': 'akby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\kappa}\\\\rangle\ $0'
+
+  'Angle lambda Bold':
+    'prefix': 'alby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\lambda}\\\\rangle\ $0'
+
+  'Angle mu Bold':
+    'prefix': 'amby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\mu}\\\\rangle\ $0'
+
+  'Angle nu Bold':
+    'prefix': 'anby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\nu}\\\\rangle\ $0'
+
+  'Angle xi Bold':
+    'prefix': 'axby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\xi}\\\\rangle\ $0'
+
+  'Angle omicron Bold':
+    'prefix': 'aoby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\omicron}\\\\rangle\ $0'
+
+  'Angle pi Bold':
+    'prefix': 'apby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\pi}\\\\rangle\ $0'
+
+  'Angle rho Bold':
+    'prefix': 'arby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\rho}\\\\rangle\ $0'
+
+  'Angle sigma Bold':
+    'prefix': 'asby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\sigma}\\\\rangle\ $0'
+
+  'Angle tau Bold':
+    'prefix': 'atby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\tau}\\\\rangle\ $0'
+
+  'Angle upsilon Bold':
+    'prefix': 'auby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\upsilon}\\\\rangle\ $0'
+
+  'Angle phi Bold':
+    'prefix': 'afby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\phi}\\\\rangle\ $0'
+
+  'Angle chi Bold':
+    'prefix': 'acby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\chi}\\\\rangle\ $0'
+
+  'Angle psi Bold':
+    'prefix': 'ayby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\psi}\\\\rangle\ $0'
+
+  'Angle omega Bold':
+    'prefix': 'awby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\omega}\\\\rangle\ $0'
+
+  'Angle Gamma Bold':
+    'prefix': 'aGby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\Gamma}\\\\rangle\ $0'
+
+  'Angle Delta Bold':
+    'prefix': 'aDby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\Delta}\\\\rangle\ $0'
+
+  'Angle Theta Bold':
+    'prefix': 'aQby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\Theta}\\\\rangle\ $0'
+
+  'Angle Lambda Bold':
+    'prefix': 'aLby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\Lambda}\\\\rangle\ $0'
+
+  'Angle Xi Bold':
+    'prefix': 'aXby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\Xi}\\\\rangle\ $0'
+
+  'Angle Pi Bold':
+    'prefix': 'aPby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\Pi}\\\\rangle\ $0'
+
+  'Angle Sigma Bold':
+    'prefix': 'aSby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\Sigma}\\\\rangle\ $0'
+
+  'Angle Phi Bold':
+    'prefix': 'aFby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\Phi}\\\\rangle\ $0'
+
+  'Angle Psi Bold':
+    'prefix': 'aYby'
+    'body': '\\\\langle\\\\boldsymbol{\\\\Psi}\\\\rangle\ $0'
+
+  #-----------------------------------------------------------------------------
+  # Partial Alpha Bold
+  'Partial alpha Bold':
+    'prefix': 'paby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\alpha}\ $0'
+
+  'Partial beta Bold':
+    'prefix': 'pbby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\beta}\ $0'
+
+  'Partial gamma Bold':
+    'prefix': 'pgby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\gamma}\ $0'
+
+  'Partial delta Bold':
+    'prefix': 'pdby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\delta}\ $0'
+
+  'Partial epsilon Bold':
+    'prefix': 'peby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\epsilon}\ $0'
+
+  'Partial zeta Bold':
+    'prefix': 'pzby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\zeta}\ $0'
+
+  'Partial eta Bold':
+    'prefix': 'phby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\eta}\ $0'
+
+  'Partial theta Bold':
+    'prefix': 'pqby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\theta}\ $0'
+
+  'Partial iota Bold':
+    'prefix': 'piby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\iota}\ $0'
+
+  'Partial kappa Bold':
+    'prefix': 'pkby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\kappa}\ $0'
+
+  'Partial lambda Bold':
+    'prefix': 'plby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\lambda}\ $0'
+
+  'Partial mu Bold':
+    'prefix': 'pmby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\mu}\ $0'
+
+  'Partial nu Bold':
+    'prefix': 'pnby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\nu}\ $0'
+
+  'Partial xi Bold':
+    'prefix': 'pxby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\xi}\ $0'
+
+  'Partial omicron Bold':
+    'prefix': 'poby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\omicron}\ $0'
+
+  'Partial pi Bold':
+    'prefix': 'ppby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\pi}\ $0'
+
+  'Partial rho Bold':
+    'prefix': 'prby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\rho}\ $0'
+
+  'Partial sigma Bold':
+    'prefix': 'psby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\sigma}\ $0'
+
+  'Partial tau Bold':
+    'prefix': 'ptby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\tau}\ $0'
+
+  'Partial upsilon Bold':
+    'prefix': 'puby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\upsilon}\ $0'
+
+  'Partial phi Bold':
+    'prefix': 'pfby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\phi}\ $0'
+
+  'Partial chi Bold':
+    'prefix': 'pcby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\chi}\ $0'
+
+  'Partial psi Bold':
+    'prefix': 'pyby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\psi}\ $0'
+
+  'Partial omega Bold':
+    'prefix': 'pwby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\omega}\ $0'
+
+  'Partial Gamma Bold':
+    'prefix': 'pGby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\Gamma}\ $0'
+
+  'Partial Delta Bold':
+    'prefix': 'pDby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\Delta}\ $0'
+
+  'Partial Theta Bold':
+    'prefix': 'pQby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\Theta}\ $0'
+
+  'Partial Lambda Bold':
+    'prefix': 'pLby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\Lambda}\ $0'
+
+  'Partial Xi Bold':
+    'prefix': 'pXby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\Xi}\ $0'
+
+  'Partial Pi Bold':
+    'prefix': 'pPby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\Pi}\ $0'
+
+  'Partial Sigma Bold':
+    'prefix': 'pSby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\Sigma}\ $0'
+
+  'Partial Phi Bold':
+    'prefix': 'pFby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\Phi}\ $0'
+
+  'Partial Psi Bold':
+    'prefix': 'pYby'
+    'body': '\\\\partial\\\\boldsymbol{\\\\Psi}\ $0'
+
+  #-----------------------------------------------------------------------------
+  # Alpha Dollar
+  'alpha Dollar':
+    'prefix': 'ax'
+    'body': '\$\\\\alpha\$\ $0'
+
+  'beta Dollar':
+    'prefix': 'bx'
+    'body': '\$\\\\beta\$\ $0'
+
+  'gamma Dollar':
+    'prefix': 'gx'
+    'body': '\$\\\\gamma\$\ $0'
+
+  'delta Dollar':
+    'prefix': 'dx'
+    'body': '\$\\\\delta\$\ $0'
+
+  'epsilon Dollar':
+    'prefix': 'ex'
+    'body': '\$\\\\epsilon\$\ $0'
+
+  'zeta Dollar':
+    'prefix': 'zx'
+    'body': '\$\\\\zeta\$\ $0'
+
+  'eta Dollar':
+    'prefix': 'hx'
+    'body': '\$\\\\eta\$\ $0'
+
+  'theta Dollar':
+    'prefix': 'qx'
+    'body': '\$\\\\theta\$\ $0'
+
+  'iota Dollar':
+    'prefix': 'ix'
+    'body': '\$\\\\iota\$\ $0'
+
+  'kappa Dollar':
+    'prefix': 'kx'
+    'body': '\$\\\\kappa\$\ $0'
+
+  'lambda Dollar':
+    'prefix': 'lx'
+    'body': '\$\\\\lambda\$\ $0'
+
+  'mu Dollar':
+    'prefix': 'mx'
+    'body': '\$\\\\mu\$\ $0'
+
+  'nu Dollar':
+    'prefix': 'nx'
+    'body': '\$\\\\nu\$\ $0'
+
+  'xi Dollar':
+    'prefix': 'xx'
+    'body': '\$\\\\xi\$\ $0'
+
+  'omicron Dollar':
+    'prefix': 'ox'
+    'body': '\$\\\\omicron\$\ $0'
+
+  'pi Dollar':
+    'prefix': 'px'
+    'body': '\$\\\\pi\$\ $0'
+
+  'rho Dollar':
+    'prefix': 'rx'
+    'body': '\$\\\\rho\$\ $0'
+
+  'sigma Dollar':
+    'prefix': 'sx'
+    'body': '\$\\\\sigma\$\ $0'
+
+  'tau Dollar':
+    'prefix': 'tx'
+    'body': '\$\\\\tau\$\ $0'
+
+  'upsilon Dollar':
+    'prefix': 'ux'
+    'body': '\$\\\\upsilon\$\ $0'
+
+  'phi Dollar':
+    'prefix': 'fx'
+    'body': '\$\\\\phi\$\ $0'
+
+  'chi Dollar':
+    'prefix': 'cx'
+    'body': '\$\\\\chi\$\ $0'
+
+  'psi Dollar':
+    'prefix': 'yx'
+    'body': '\$\\\\psi\$\ $0'
+
+  'omega Dollar':
+    'prefix': 'wx'
+    'body': '\$\\\\omega\$\ $0'
+
+  'Gamma Dollar':
+    'prefix': 'Gx'
+    'body': '\$\\\\Gamma\$\ $0'
+
+  'Delta Dollar':
+    'prefix': 'Dx'
+    'body': '\$\\\\Delta\$\ $0'
+
+  'Theta Dollar':
+    'prefix': 'Qx'
+    'body': '\$\\\\Theta\$\ $0'
+
+  'Lambda Dollar':
+    'prefix': 'Lx'
+    'body': '\$\\\\Lambda\$\ $0'
+
+  'Xi Dollar':
+    'prefix': 'Xx'
+    'body': '\$\\\\Xi\$\ $0'
+
+  'Pi Dollar':
+    'prefix': 'Px'
+    'body': '\$\\\\Pi\$\ $0'
+
+  'Sigma Dollar':
+    'prefix': 'Sx'
+    'body': '\$\\\\Sigma\$\ $0'
+
+  'Phi Dollar':
+    'prefix': 'Fx'
+    'body': '\$\\\\Phi\$\ $0'
+
+  'Psi Dollar':
+    'prefix': 'Yx'
+    'body': '\$\\\\Psi\$\ $0'
+
+  #-----------------------------------------------------------------------------
+  # Bold Alpha Dollar
+  'Bold alpha Dollar':
+    'prefix': 'bayx'
+    'body': '\$\\\\boldsymbol{\\\\alpha}\$\ $0'
+
+  'Bold beta Dollar':
+    'prefix': 'bbyx'
+    'body': '\$\\\\boldsymbol{\\\\beta}\$\ $0'
+
+  'Bold gamma Dollar':
+    'prefix': 'bgyx'
+    'body': '\$\\\\boldsymbol{\\\\gamma}\$\ $0'
+
+  'Bold delta Dollar':
+    'prefix': 'bdyx'
+    'body': '\$\\\\boldsymbol{\\\\delta}\$\ $0'
+
+  'Bold epsilon Dollar':
+    'prefix': 'beyx'
+    'body': '\$\\\\boldsymbol{\\\\epsilon}\$\ $0'
+
+  'Bold zeta Dollar':
+    'prefix': 'bzyx'
+    'body': '\$\\\\boldsymbol{\\\\zeta}\$\ $0'
+
+  'Bold eta Dollar':
+    'prefix': 'bhyx'
+    'body': '\$\\\\boldsymbol{\\\\eta}\$\ $0'
+
+  'Bold theta Dollar':
+    'prefix': 'bqyx'
+    'body': '\$\\\\boldsymbol{\\\\theta}\$\ $0'
+
+  'Bold iota Dollar':
+    'prefix': 'biyx'
+    'body': '\$\\\\boldsymbol{\\\\iota}\$\ $0'
+
+  'Bold kappa Dollar':
+    'prefix': 'bkyx'
+    'body': '\$\\\\boldsymbol{\\\\kappa}\$\ $0'
+
+  'Bold lambda Dollar':
+    'prefix': 'blyx'
+    'body': '\$\\\\boldsymbol{\\\\lambda}\$\ $0'
+
+  'Bold mu Dollar':
+    'prefix': 'bmyx'
+    'body': '\$\\\\boldsymbol{\\\\mu}\$\ $0'
+
+  'Bold nu Dollar':
+    'prefix': 'bnyx'
+    'body': '\$\\\\boldsymbol{\\\\nu}\$\ $0'
+
+  'Bold xi Dollar':
+    'prefix': 'bxyx'
+    'body': '\$\\\\boldsymbol{\\\\xi}\$\ $0'
+
+  'Bold omicron Dollar':
+    'prefix': 'boyx'
+    'body': '\$\\\\boldsymbol{\\\\omicron}\$\ $0'
+
+  'Bold pi Dollar':
+    'prefix': 'bpyx'
+    'body': '\$\\\\boldsymbol{\\\\pi}\$\ $0'
+
+  'Bold rho Dollar':
+    'prefix': 'bryx'
+    'body': '\$\\\\boldsymbol{\\\\rho}\$\ $0'
+
+  'Bold sigma Dollar':
+    'prefix': 'bsyx'
+    'body': '\$\\\\boldsymbol{\\\\sigma}\$\ $0'
+
+  'Bold tau Dollar':
+    'prefix': 'btyx'
+    'body': '\$\\\\boldsymbol{\\\\tau}\$\ $0'
+
+  'Bold upsilon Dollar':
+    'prefix': 'buyx'
+    'body': '\$\\\\boldsymbol{\\\\upsilon}\$\ $0'
+
+  'Bold phi Dollar':
+    'prefix': 'bfyx'
+    'body': '\$\\\\boldsymbol{\\\\phi}\$\ $0'
+
+  'Bold chi Dollar':
+    'prefix': 'bcyx'
+    'body': '\$\\\\boldsymbol{\\\\chi}\$\ $0'
+
+  'Bold psi Dollar':
+    'prefix': 'byyx'
+    'body': '\$\\\\boldsymbol{\\\\psi}\$\ $0'
+
+  'Bold omega Dollar':
+    'prefix': 'bwyx'
+    'body': '\$\\\\boldsymbol{\\\\omega}\$\ $0'
+
+  'Bold Gamma Dollar':
+    'prefix': 'bGyx'
+    'body': '\$\\\\boldsymbol{\\\\Gamma}\$\ $0'
+
+  'Bold Delta Dollar':
+    'prefix': 'bDyx'
+    'body': '\$\\\\boldsymbol{\\\\Delta}\$\ $0'
+
+  'Bold Theta Dollar':
+    'prefix': 'bQyx'
+    'body': '\$\\\\boldsymbol{\\\\Theta}\$\ $0'
+
+  'Bold Lambda Dollar':
+    'prefix': 'bLyx'
+    'body': '\$\\\\boldsymbol{\\\\Lambda}\$\ $0'
+
+  'Bold Xi Dollar':
+    'prefix': 'bXyx'
+    'body': '\$\\\\boldsymbol{\\\\Xi}\$\ $0'
+
+  'Bold Pi Dollar':
+    'prefix': 'bPyx'
+    'body': '\$\\\\boldsymbol{\\\\Pi}\$\ $0'
+
+  'Bold Sigma Dollar':
+    'prefix': 'bSyx'
+    'body': '\$\\\\boldsymbol{\\\\Sigma}\$\ $0'
+
+  'Bold Phi Dollar':
+    'prefix': 'bFyx'
+    'body': '\$\\\\boldsymbol{\\\\Phi}\$\ $0'
+
+  'Bold Psi Dollar':
+    'prefix': 'bYyx'
+    'body': '\$\\\\boldsymbol{\\\\Psi}\$\ $0'
+
+  #-----------------------------------------------------------------------------
+  # Script Alpha Dollar
+  'Script alpha Dollar':
+    'prefix': 'sayx'
+    'body': '\$\\\\mathscr{\\\\alpha}\$\ $0'
+
+  'Script beta Dollar':
+    'prefix': 'sbyx'
+    'body': '\$\\\\mathscr{\\\\beta}\$\ $0'
+
+  'Script gamma Dollar':
+    'prefix': 'sgyx'
+    'body': '\$\\\\mathscr{\\\\gamma}\$\ $0'
+
+  'Script delta Dollar':
+    'prefix': 'sdyx'
+    'body': '\$\\\\mathscr{\\\\delta}\$\ $0'
+
+  'Script epsilon Dollar':
+    'prefix': 'seyx'
+    'body': '\$\\\\mathscr{\\\\epsilon}\$\ $0'
+
+  'Script zeta Dollar':
+    'prefix': 'szyx'
+    'body': '\$\\\\mathscr{\\\\zeta}\$\ $0'
+
+  'Script eta Dollar':
+    'prefix': 'shyx'
+    'body': '\$\\\\mathscr{\\\\eta}\$\ $0'
+
+  'Script theta Dollar':
+    'prefix': 'sqyx'
+    'body': '\$\\\\mathscr{\\\\theta}\$\ $0'
+
+  'Script iota Dollar':
+    'prefix': 'siyx'
+    'body': '\$\\\\mathscr{\\\\iota}\$\ $0'
+
+  'Script kappa Dollar':
+    'prefix': 'skyx'
+    'body': '\$\\\\mathscr{\\\\kappa}\$\ $0'
+
+  'Script lambda Dollar':
+    'prefix': 'slyx'
+    'body': '\$\\\\mathscr{\\\\lambda}\$\ $0'
+
+  'Script mu Dollar':
+    'prefix': 'smyx'
+    'body': '\$\\\\mathscr{\\\\mu}\$\ $0'
+
+  'Script nu Dollar':
+    'prefix': 'snyx'
+    'body': '\$\\\\mathscr{\\\\nu}\$\ $0'
+
+  'Script xi Dollar':
+    'prefix': 'sxyx'
+    'body': '\$\\\\mathscr{\\\\xi}\$\ $0'
+
+  'Script omicron Dollar':
+    'prefix': 'soyx'
+    'body': '\$\\\\mathscr{\\\\omicron}\$\ $0'
+
+  'Script pi Dollar':
+    'prefix': 'spyx'
+    'body': '\$\\\\mathscr{\\\\pi}\$\ $0'
+
+  'Script rho Dollar':
+    'prefix': 'sryx'
+    'body': '\$\\\\mathscr{\\\\rho}\$\ $0'
+
+  'Script sigma Dollar':
+    'prefix': 'ssyx'
+    'body': '\$\\\\mathscr{\\\\sigma}\$\ $0'
+
+  'Script tau Dollar':
+    'prefix': 'styx'
+    'body': '\$\\\\mathscr{\\\\tau}\$\ $0'
+
+  'Script upsilon Dollar':
+    'prefix': 'suyx'
+    'body': '\$\\\\mathscr{\\\\upsilon}\$\ $0'
+
+  'Script phi Dollar':
+    'prefix': 'sfyx'
+    'body': '\$\\\\mathscr{\\\\phi}\$\ $0'
+
+  'Script chi Dollar':
+    'prefix': 'scyx'
+    'body': '\$\\\\mathscr{\\\\chi}\$\ $0'
+
+  'Script psi Dollar':
+    'prefix': 'syyx'
+    'body': '\$\\\\mathscr{\\\\psi}\$\ $0'
+
+  'Script omega Dollar':
+    'prefix': 'swyx'
+    'body': '\$\\\\mathscr{\\\\omega}\$\ $0'
+
+  'Script Gamma Dollar':
+    'prefix': 'sGyx'
+    'body': '\$\\\\mathscr{\\\\Gamma}\$\ $0'
+
+  'Script Delta Dollar':
+    'prefix': 'sDyx'
+    'body': '\$\\\\mathscr{\\\\Delta}\$\ $0'
+
+  'Script Theta Dollar':
+    'prefix': 'sQyx'
+    'body': '\$\\\\mathscr{\\\\Theta}\$\ $0'
+
+  'Script Lambda Dollar':
+    'prefix': 'sLyx'
+    'body': '\$\\\\mathscr{\\\\Lambda}\$\ $0'
+
+  'Script Xi Dollar':
+    'prefix': 'sXyx'
+    'body': '\$\\\\mathscr{\\\\Xi}\$\ $0'
+
+  'Script Pi Dollar':
+    'prefix': 'sPyx'
+    'body': '\$\\\\mathscr{\\\\Pi}\$\ $0'
+
+  'Script Sigma Dollar':
+    'prefix': 'sSyx'
+    'body': '\$\\\\mathscr{\\\\Sigma}\$\ $0'
+
+  'Script Phi Dollar':
+    'prefix': 'sFyx'
+    'body': '\$\\\\mathscr{\\\\Phi}\$\ $0'
+
+  'Script Psi Dollar':
+    'prefix': 'sYyx'
+    'body': '\$\\\\mathscr{\\\\Psi}\$\ $0'
+

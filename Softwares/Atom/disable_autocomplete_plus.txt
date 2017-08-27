@@ -1,0 +1,10 @@
+Author: Bhishan Poudel
+Date  : Aug 17, 2017 Thu
+
+Topic: Disable Autocompletion and give own autocompletions
+============================================================
+1. disable packages
+autocomplete-atom-api
+autocomplete-css
+autocomplete-html
+autocomplete-plus

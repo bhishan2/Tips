@@ -1,0 +1,43 @@
+$Id: README,v 1.2 2003/11/23 09:49:40 vverdult Exp $
+
+                                Tudprosper
+                 A LaTeX class to produce TU Delft slides
+
+
+INSTALLATION
+============
+
+Put the following four files 
+- tudprosper.cls
+- tudlogo.eps
+- tudlogoen.eps
+- tudlogonl.eps
+in a directory pointed to by the TEXINPUTS variable. 
+
+Under Red Hat Linux with teTeX, I would suggest uncompressing the
+archive in /usr/share/texmf/tex/latex/misc to have a tudprosper
+directory there (do not forget to run mktexlsr in order to update your
+TeX tree). Alternatively, create a directory tudprosper somewhere in your
+home and add the path to the TEXINPUTS variable.
+
+Tudprosper requires the following packages:
+- graphicx
+- hyperref
+- pstricks
+- seminar
+- babel (if the `dutch' option is used)
+
+
+DOCUMENTATION
+=============
+
+See the documentation in doc/tudprosper-doc.pdf for a user manual. 
+A simple example file is provided in doc/example.tex.
+You can compile this example as follows:
+
+> latex example
+> dvips -Ppdf -G0 example.dvi
+> ps2pdf -sPAPERSIZE=a4 example.ps
+
+You can use Adobe Acrobat Reader (acroread) to display the generated 
+PDF file.

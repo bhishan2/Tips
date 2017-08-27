@@ -1,0 +1,49 @@
+\documentclass[11pt]{book}
+
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{xcolor}
+\definecolor{ocre}{RGB}{0,173,239}
+
+\usepackage{blkarray}
+
+\makeatletter
+\renewcommand*\env@matrix[1][*\c@MaxMatrixCols c]{%
+  \hskip -\arraycolsep
+  \let\@ifnextchar\new@ifnextchar
+  \array{#1}}
+\makeatother
+
+\usepackage{tikz}
+
+\usetikzlibrary{arrows,matrix,positioning,fit}
+\tikzset{%
+  highlight/.style={rectangle,rounded corners,fill=ocre!50,draw,
+     fill opacity=0.5,thick,inner sep=0pt}
+}
+\newcommand{\tikzmark}[2]{\tikz[overlay,remember picture,
+  baseline=(#1.base)] \node (#1) {#2};}
+%
+\newcommand{\Highlight}[1][submatrix]{%
+     \tikz[overlay,remember picture]{
+     \node[highlight,fit=(left.north west) (right.south east)] (#1) {};}
+}
+
+\begin{document}
+
+\[
+\begin{blockarray}{ccccc}
+x_{1} & x_{2} & x_{3} & x_{4} &  \\
+\begin{block}{[cccc|c]}
+  1 & 0 & \tikzmark{left}{-1} & 0 & 0 \\
+  0 & 1 & 2 & 0 & 0 \\
+  0 & 0 & \tikzmark{right}{0} & 1 & 0 \\
+\end{block}
+\end{blockarray}
+\]
+\Highlight[new1]
+
+\tikz[overlay,remember picture] {
+  \node[below=(.5cm of new1), xshift=1.5cm, red,font=\itshape, name=free1] {\shortstack{free \\ variable};}}
+\tikz[overlay,remember picture] \draw[->] (free1) to[out=180,in=270] (new1);
+
+\end{document}
