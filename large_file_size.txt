@@ -6,3 +6,6 @@
 #=====================================
 
 find . -type f -size +48M
+
+1. zip the file
+2. `split -b20m large_file small_file`
